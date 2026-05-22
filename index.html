@@ -2,793 +2,802 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kit Visual para Lash Designers | Perfil Premium no Instagram</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#fdf8f5">
+<title>Kit Visual Premium para Lash Designers | Perfil Profissional no Instagram</title>
+<meta name="description" content="Templates editáveis no Canva para lash designers que querem um perfil premium, atrair mais clientes e economizar horas toda semana.">
 
-<!-- ── Meta Pixel ── -->
+<!-- ═══════════════════════════════════════════
+     META PIXEL — ID: 2379862875808919
+     PageView + ViewContent disparam ao carregar.
+     InitiateCheckout é chamado por fireCTA()
+     em todos os botões .btn-primary.
+     ═══════════════════════════════════════════ -->
 <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
+  !function(f,b,e,v,n,t,s){
+    if(f.fbq)return;
+    n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)
+  }(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
   fbq('init', '2379862875808919');
   fbq('track', 'PageView');
   fbq('track', 'ViewContent', {
-    content_name: 'Kit Visual Lash Designer',
+    content_name : 'Kit Visual Premium — Lash Designer',
     content_category: 'Beauty / Digital Product',
-    currency: 'BRL',
-    value: 27.00
+    currency     : 'BRL',
+    value        : 27.00
   });
 </script>
 <noscript>
   <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2379862875808919&ev=PageView&noscript=1" />
+       src="https://www.facebook.com/tr?id=2379862875808919&ev=PageView&noscript=1" />
 </noscript>
-<!-- ── Fim Meta Pixel ── -->
+<!-- ═══ FIM META PIXEL ═══ -->
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <style>
-  :root {
-    --blush: #f2d9d0;
-    --rose: #d4927a;
-    --deep-rose: #b5705a;
-    --nude: #f7ede8;
-    --cream: #fdf8f5;
-    --warm-white: #fffcfa;
-    --taupe: #9c8073;
-    --dark: #2d1f1a;
-    --mid: #6b4c42;
-    --gold: #c9a882;
-    --gold-light: #e8d5bb;
-    --text: #3d2b25;
-    --text-soft: #7a5d55;
-  }
+/* ════════════════════════════════
+   TOKENS
+════════════════════════════════ */
+:root {
+  --blush     : #f2d9d0;
+  --rose      : #d4927a;
+  --deep-rose : #b5705a;
+  --nude      : #f7ede8;
+  --cream     : #fdf8f5;
+  --warm-white: #fffcfa;
+  --taupe     : #9c8073;
+  --dark      : #2d1f1a;
+  --mid       : #6b4c42;
+  --gold      : #c9a882;
+  --text      : #3d2b25;
+  --text-soft : #7a5d55;
+  --radius    : 14px;
+  --radius-lg : 20px;
+}
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+/* ════════════════════════════════
+   RESET & BASE
+════════════════════════════════ */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html  { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body  { font-family:'Jost',sans-serif; background:var(--warm-white); color:var(--text); overflow-x:hidden; line-height:1.6; }
+img   { max-width:100%; height:auto; display:block; }
+h1,h2,h3 { font-family:'Cormorant Garamond',serif; }
+a     { color:inherit; }
 
-  html { scroll-behavior: smooth; }
+/* ════════════════════════════════
+   UTILITY
+════════════════════════════════ */
+.container { max-width:700px; margin:0 auto; padding:0 20px; }
 
-  body {
-    font-family: 'Jost', sans-serif;
-    background: var(--warm-white);
-    color: var(--text);
-    overflow-x: hidden;
-  }
+.tag {
+  display:inline-block;
+  font-family:'Jost',sans-serif;
+  font-size:10px; font-weight:500;
+  letter-spacing:3px; text-transform:uppercase;
+  color:var(--deep-rose);
+  background:rgba(212,146,122,.12);
+  padding:6px 16px; border-radius:40px;
+  margin-bottom:18px;
+}
 
-  h1, h2, h3 { font-family: 'Cormorant Garamond', serif; }
+/* ════════════════════════════════
+   BUTTONS
+════════════════════════════════ */
+.btn-primary {
+  display:inline-block;
+  background:linear-gradient(135deg,var(--rose),var(--deep-rose));
+  color:#fff;
+  font-family:'Jost',sans-serif;
+  font-size:14px; font-weight:500;
+  letter-spacing:1.5px; text-transform:uppercase;
+  text-decoration:none;
+  padding:17px 36px;
+  border-radius:60px; border:none;
+  cursor:pointer;
+  box-shadow:0 12px 36px rgba(181,112,90,.35);
+  transition:transform .25s, box-shadow .25s;
+  position:relative; overflow:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+.btn-primary::after {
+  content:''; position:absolute; inset:0;
+  background:rgba(255,255,255,.12); opacity:0;
+  transition:opacity .25s;
+}
+.btn-primary:hover  { transform:translateY(-2px); box-shadow:0 18px 48px rgba(181,112,90,.42); }
+.btn-primary:hover::after { opacity:1; }
+.btn-primary:active { transform:translateY(0); }
 
-  /* ── UTILITY ── */
-  .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-  .tag {
-    display: inline-block;
-    font-family: 'Jost', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--deep-rose);
-    background: rgba(212,146,122,0.12);
-    padding: 6px 16px;
-    border-radius: 40px;
-    margin-bottom: 20px;
-  }
+.btn-soft {
+  display:inline-block;
+  background:transparent;
+  color:var(--deep-rose);
+  font-family:'Jost',sans-serif;
+  font-size:13px; font-weight:500;
+  letter-spacing:1.5px; text-transform:uppercase;
+  text-decoration:none;
+  padding:13px 28px;
+  border-radius:60px;
+  border:1.5px solid var(--rose);
+  cursor:pointer;
+  transition:all .25s;
+  -webkit-tap-highlight-color:transparent;
+}
+.btn-soft:hover { background:var(--rose); color:#fff; }
 
-  .btn-primary {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 18px 40px;
-    border-radius: 60px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 12px 40px rgba(181,112,90,0.35);
-    transition: transform 0.25s, box-shadow 0.25s;
-    position: relative;
-    overflow: hidden;
-  }
-  .btn-primary::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(255,255,255,0.12);
-    opacity: 0;
-    transition: opacity 0.25s;
-  }
-  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 50px rgba(181,112,90,0.4); }
-  .btn-primary:hover::after { opacity: 1; }
+/* ════════════════════════════════
+   MICRO CTA STRIP
+════════════════════════════════ */
+.micro-cta {
+  padding:40px 20px;
+  text-align:center;
+  background:var(--warm-white);
+}
+.micro-cta--dark {
+  background:var(--dark);
+}
 
-  .btn-ghost {
-    display: inline-block;
-    background: transparent;
-    color: var(--deep-rose);
-    font-family: 'Jost', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 14px 32px;
-    border-radius: 60px;
-    border: 1.5px solid var(--rose);
-    cursor: pointer;
-    transition: all 0.25s;
-  }
-  .btn-ghost:hover { background: var(--rose); color: #fff; }
+/* ════════════════════════════════
+   NAV
+════════════════════════════════ */
+nav {
+  position:fixed; top:0; width:100%; z-index:200;
+  padding:14px 20px;
+  background:rgba(253,248,245,.88);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(212,146,122,.12);
+}
+.nav-inner {
+  max-width:700px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.nav-logo {
+  font-family:'Cormorant Garamond',serif;
+  font-size:19px; font-weight:400; color:var(--dark); letter-spacing:1px;
+}
+.nav-logo span { color:var(--rose); }
 
-  /* ── NAVBAR ── */
-  nav {
-    position: fixed; top: 0; width: 100%; z-index: 100;
-    padding: 16px 24px;
-    background: rgba(253,248,245,0.85);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border-bottom: 1px solid rgba(212,146,122,0.12);
-  }
-  .nav-inner {
-    max-width: 720px; margin: 0 auto;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .nav-logo {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px; font-weight: 400; color: var(--dark);
-    letter-spacing: 1px;
-  }
-  .nav-logo span { color: var(--rose); }
+/* ════════════════════════════════
+   HERO
+════════════════════════════════ */
+#hero {
+  min-height:100svh;
+  display:flex; flex-direction:column; justify-content:center;
+  padding:96px 20px 56px;
+  background:linear-gradient(170deg,var(--cream) 0%,var(--nude) 55%,var(--blush) 100%);
+  text-align:center; position:relative; overflow:hidden;
+}
+#hero::before {
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:
+    radial-gradient(ellipse 60% 40% at 18% 28%, rgba(242,217,208,.65) 0%, transparent 68%),
+    radial-gradient(ellipse 50% 50% at 82% 72%, rgba(212,146,122,.18) 0%, transparent 60%);
+}
+.hero-ornament {
+  position:absolute; font-size:clamp(140px,40vw,300px);
+  font-family:'Cormorant Garamond',serif; font-style:italic;
+  color:rgba(212,146,122,.055); line-height:1;
+  top:50%; left:50%; transform:translate(-50%,-50%);
+  pointer-events:none; white-space:nowrap; user-select:none;
+}
+.hero-content { position:relative; z-index:1; }
 
-  /* ── HERO ── */
-  #hero {
-    min-height: 100svh;
-    display: flex; flex-direction: column; justify-content: center;
-    padding: 100px 24px 60px;
-    background: linear-gradient(175deg, var(--cream) 0%, var(--nude) 50%, var(--blush) 100%);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  #hero::before {
-    content: '';
-    position: absolute; inset: 0;
-    background:
-      radial-gradient(ellipse 60% 40% at 20% 30%, rgba(242,217,208,0.6) 0%, transparent 70%),
-      radial-gradient(ellipse 50% 50% at 80% 70%, rgba(212,146,122,0.18) 0%, transparent 60%);
-    pointer-events: none;
-  }
-  .hero-ornament {
-    position: absolute;
-    font-size: 280px;
-    line-height: 1;
-    color: rgba(212,146,122,0.06);
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    white-space: nowrap;
-    user-select: none;
-  }
-  .hero-content { position: relative; z-index: 1; }
-  #hero h1 {
-    font-size: clamp(38px, 9vw, 62px);
-    font-weight: 300;
-    line-height: 1.1;
-    color: var(--dark);
-    margin-bottom: 20px;
-  }
-  #hero h1 em { font-style: italic; color: var(--deep-rose); }
-  #hero p.sub {
-    font-size: 16px; font-weight: 300; color: var(--text-soft);
-    line-height: 1.7; max-width: 480px; margin: 0 auto 36px;
-  }
-  .hero-cta-group { display: flex; flex-direction: column; align-items: center; gap: 14px; }
-  .hero-note {
-    font-size: 12px; color: var(--taupe); letter-spacing: 0.5px;
-  }
+#hero h1 {
+  font-size:clamp(34px,8.5vw,58px);
+  font-weight:300; line-height:1.12;
+  color:var(--dark); margin-bottom:18px;
+}
+#hero h1 em { font-style:italic; color:var(--deep-rose); }
+#hero h1 strong { font-weight:600; }
 
-  /* mockup grid */
-  .mockup-area {
-    margin: 56px auto 0;
-    max-width: 600px;
-    position: relative;
-  }
-  .mockup-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 30px 80px rgba(45,31,26,0.18);
-  }
-  .mock-card {
-    aspect-ratio: 1;
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 13px;
-    font-style: italic;
-    color: rgba(255,255,255,0.85);
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    padding: 10px;
-  }
-  .mock-card .icon { font-size: 22px; margin-bottom: 4px; opacity: 0.9; }
-  .mock-card span { font-size: 11px; line-height: 1.3; }
-  .mc1 { background: linear-gradient(135deg, #c9907a, #b5705a); }
-  .mc2 { background: linear-gradient(135deg, #d4b5aa, #c49688); }
-  .mc3 { background: linear-gradient(135deg, #b87f70, #9e6a5c); }
-  .mc4 { background: linear-gradient(135deg, #e8cfc7, #d4b5aa); color: var(--mid); }
-  .mc5 { background: linear-gradient(135deg, #c49688, #b5705a); }
-  .mc6 { background: linear-gradient(135deg, #d4927a, #c9907a); }
-  .mock-badge {
-    position: absolute; top: -16px; right: 16px;
-    background: var(--dark);
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 6px 14px;
-    border-radius: 20px;
-  }
+#hero p.sub {
+  font-size:15px; font-weight:300; color:var(--text-soft);
+  line-height:1.75; max-width:460px; margin:0 auto 32px;
+}
+.hero-cta-group { display:flex; flex-direction:column; align-items:center; gap:12px; }
+.hero-note { font-size:11.5px; color:var(--taupe); letter-spacing:.4px; }
 
-  /* ── PAIN ── */
-  #pain {
-    padding: 80px 24px;
-    background: var(--dark);
-    color: #fff;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  #pain::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(212,146,122,0.1) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  #pain h2 {
-    font-size: clamp(28px, 7vw, 44px);
-    font-weight: 300; line-height: 1.2;
-    margin-bottom: 16px;
-  }
-  #pain h2 em { font-style: italic; color: var(--blush); }
-  #pain .intro-p {
-    font-size: 15px; font-weight: 300; line-height: 1.8;
-    color: rgba(255,255,255,0.65);
-    max-width: 500px; margin: 0 auto 56px;
-  }
-  .pain-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    max-width: 560px;
-    margin: 0 auto;
-  }
-  .pain-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 14px;
-    padding: 24px 26px;
-    text-align: left;
-    display: flex; gap: 18px; align-items: flex-start;
-    transition: background 0.25s;
-  }
-  .pain-card:hover { background: rgba(255,255,255,0.07); }
-  .pain-icon {
-    width: 42px; height: 42px; flex-shrink: 0;
-    background: linear-gradient(135deg, rgba(212,146,122,0.25), rgba(181,112,90,0.15));
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 18px;
-  }
-  .pain-card h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: #fff; margin-bottom: 6px; }
-  .pain-card p { font-size: 13px; font-weight: 300; color: rgba(255,255,255,0.55); line-height: 1.6; }
+/* Kit preview grid */
+.kit-preview {
+  margin:52px auto 0; max-width:560px; position:relative;
+}
+.kit-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:6px; border-radius:16px; overflow:hidden;
+  box-shadow:0 28px 70px rgba(45,31,26,.18);
+}
+.kit-cell {
+  aspect-ratio:1;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  font-family:'Cormorant Garamond',serif;
+  font-style:italic; font-size:12px;
+  color:rgba(255,255,255,.88); text-align:center; padding:10px;
+  position:relative;
+}
+.kit-cell .kc-icon { font-size:20px; margin-bottom:4px; opacity:.92; }
+.kit-cell span     { font-size:10.5px; line-height:1.3; }
+.kc1 { background:linear-gradient(135deg,#c9907a,#b5705a); }
+.kc2 { background:linear-gradient(135deg,#d4b5aa,#c49688); }
+.kc3 { background:linear-gradient(135deg,#b87f70,#9e6a5c); }
+.kc4 { background:linear-gradient(135deg,#e8cfc7,#d4b5aa); color:var(--mid); }
+.kc5 { background:linear-gradient(135deg,#c49688,#b5705a); }
+.kc6 { background:linear-gradient(135deg,#d4927a,#c9907a); }
+.kit-badge {
+  position:absolute; top:-14px; right:14px;
+  background:var(--dark); color:#fff;
+  font-family:'Jost',sans-serif;
+  font-size:10px; font-weight:500; letter-spacing:1px;
+  padding:5px 13px; border-radius:20px;
+}
 
-  /* ── PERCEPTION ── */
-  #perception {
-    padding: 80px 24px;
-    background: var(--cream);
-    text-align: center;
-  }
-  #perception h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.25;
-    margin-bottom: 16px;
-  }
-  #perception h2 em { font-style: italic; color: var(--deep-rose); }
-  #perception p { font-size: 15px; font-weight: 300; color: var(--text-soft); line-height: 1.8; margin-bottom: 20px; }
-  .perception-quote {
-    background: linear-gradient(135deg, var(--nude), var(--blush));
-    border-left: 3px solid var(--rose);
-    border-radius: 0 12px 12px 0;
-    padding: 24px 28px;
-    margin: 40px 0;
-    text-align: left;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px; font-style: italic;
-    color: var(--mid); line-height: 1.5;
-  }
-  .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
-  .stat-box {
-    background: #fff;
-    border: 1px solid var(--blush);
-    border-radius: 14px;
-    padding: 28px 20px;
-    text-align: center;
-  }
-  .stat-num {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 44px; font-weight: 300;
-    color: var(--deep-rose); line-height: 1;
-    margin-bottom: 8px;
-  }
-  .stat-label { font-size: 12px; color: var(--taupe); line-height: 1.4; }
+/* ════════════════════════════════
+   PAIN
+════════════════════════════════ */
+#pain {
+  padding:72px 20px;
+  background:var(--dark); color:#fff;
+  text-align:center; position:relative; overflow:hidden;
+}
+#pain::before {
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(ellipse 80% 55% at 50% 100%, rgba(212,146,122,.1) 0%, transparent 70%);
+}
+#pain h2 {
+  font-size:clamp(26px,6.5vw,42px);
+  font-weight:300; line-height:1.2; margin-bottom:14px;
+}
+#pain h2 em { font-style:italic; color:var(--blush); }
+#pain .intro-p {
+  font-size:15px; font-weight:300; line-height:1.8;
+  color:rgba(255,255,255,.6); max-width:480px; margin:0 auto 48px;
+}
+.pain-cards { display:grid; gap:14px; max-width:540px; margin:0 auto; }
+.pain-card {
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:var(--radius); padding:22px 24px;
+  text-align:left; display:flex; gap:16px; align-items:flex-start;
+  transition:background .25s;
+}
+.pain-card:hover { background:rgba(255,255,255,.07); }
+.pain-icon {
+  width:40px; height:40px; flex-shrink:0; border-radius:50%;
+  background:linear-gradient(135deg,rgba(212,146,122,.25),rgba(181,112,90,.15));
+  display:flex; align-items:center; justify-content:center; font-size:17px;
+}
+.pain-card h3 {
+  font-family:'Jost',sans-serif;
+  font-size:13.5px; font-weight:500; color:#fff; margin-bottom:5px;
+}
+.pain-card p { font-size:12.5px; font-weight:300; color:rgba(255,255,255,.52); line-height:1.6; }
 
-  /* ── PRODUCT ── */
-  #product {
-    padding: 80px 24px;
-    background: linear-gradient(180deg, var(--nude) 0%, var(--warm-white) 100%);
-    text-align: center;
-  }
-  #product h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2;
-    margin-bottom: 12px;
-  }
-  #product h2 em { font-style: italic; color: var(--deep-rose); }
-  #product .sub-desc {
-    font-size: 15px; color: var(--text-soft); font-weight: 300;
-    line-height: 1.7; margin-bottom: 48px; max-width: 480px; margin-left: auto; margin-right: auto;
-  }
-  .product-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 32px;
-  }
-  .product-item {
-    background: #fff;
-    border: 1px solid var(--blush);
-    border-radius: 14px;
-    padding: 22px 18px;
-    text-align: left;
-    transition: box-shadow 0.25s, transform 0.25s;
-  }
-  .product-item:hover { box-shadow: 0 8px 30px rgba(181,112,90,0.12); transform: translateY(-2px); }
-  .product-item .p-icon { font-size: 26px; margin-bottom: 10px; }
-  .product-item h3 {
-    font-family: 'Jost', sans-serif;
-    font-size: 13px; font-weight: 500;
-    color: var(--dark); margin-bottom: 6px;
-  }
-  .product-item p { font-size: 12px; color: var(--taupe); line-height: 1.5; font-weight: 300; }
-  .product-total {
-    background: linear-gradient(135deg, var(--dark) 0%, var(--mid) 100%);
-    border-radius: 16px;
-    padding: 28px 24px;
-    color: #fff;
-    text-align: center;
-  }
-  .product-total span {
-    display: block;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 32px; font-weight: 300;
-    margin-bottom: 6px;
-  }
-  .product-total p { font-size: 13px; color: rgba(255,255,255,0.6); font-weight: 300; }
+/* ════════════════════════════════
+   PERCEPTION
+════════════════════════════════ */
+#perception { padding:72px 20px; background:var(--cream); text-align:center; }
+#perception h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.25; margin-bottom:14px;
+}
+#perception h2 em { font-style:italic; color:var(--deep-rose); }
+#perception p {
+  font-size:15px; font-weight:300; color:var(--text-soft);
+  line-height:1.8; margin-bottom:18px;
+}
+.perception-quote {
+  background:linear-gradient(135deg,var(--nude),var(--blush));
+  border-left:3px solid var(--rose);
+  border-radius:0 12px 12px 0;
+  padding:22px 26px; margin:36px 0;
+  text-align:left;
+  font-family:'Cormorant Garamond',serif;
+  font-size:19px; font-style:italic; color:var(--mid); line-height:1.5;
+}
+.stat-row {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:14px; margin-top:36px;
+}
+.stat-box {
+  background:#fff; border:1px solid var(--blush);
+  border-radius:var(--radius); padding:26px 18px; text-align:center;
+}
+.stat-num {
+  font-family:'Cormorant Garamond',serif;
+  font-size:42px; font-weight:300;
+  color:var(--deep-rose); line-height:1; margin-bottom:7px;
+}
+.stat-label { font-size:11.5px; color:var(--taupe); line-height:1.4; }
 
-  /* ── BENEFITS ── */
-  #benefits {
-    padding: 80px 24px;
-    background: var(--warm-white);
-    text-align: center;
-  }
-  #benefits h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2; margin-bottom: 48px;
-  }
-  #benefits h2 em { font-style: italic; color: var(--deep-rose); }
-  .benefit-list { display: grid; gap: 14px; max-width: 560px; margin: 0 auto; }
-  .benefit-row {
-    display: flex; gap: 16px; align-items: flex-start;
-    background: var(--cream);
-    border: 1px solid var(--blush);
-    border-radius: 14px;
-    padding: 20px 22px;
-    text-align: left;
-  }
-  .benefit-dot {
-    width: 10px; height: 10px; flex-shrink: 0;
-    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
-    border-radius: 50%; margin-top: 6px;
-  }
-  .benefit-row h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 4px; }
-  .benefit-row p { font-size: 13px; color: var(--text-soft); font-weight: 300; line-height: 1.5; }
+/* ════════════════════════════════
+   BEFORE / AFTER  (new section)
+════════════════════════════════ */
+#before-after {
+  padding:72px 20px;
+  background:var(--warm-white); text-align:center;
+}
+#before-after h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:12px;
+}
+#before-after h2 em { font-style:italic; color:var(--deep-rose); }
+#before-after .section-desc {
+  font-size:15px; font-weight:300; color:var(--text-soft);
+  max-width:440px; margin:0 auto 44px; line-height:1.75;
+}
+.ba-wrapper {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:12px; max-width:640px; margin:0 auto 16px;
+}
+.ba-panel {
+  border-radius:16px; overflow:hidden;
+  box-shadow:0 12px 40px rgba(45,31,26,.1);
+}
+.ba-label {
+  font-family:'Jost',sans-serif;
+  font-size:9px; font-weight:500;
+  letter-spacing:3px; text-transform:uppercase;
+  padding:9px 16px;
+  display:block; text-align:center;
+}
+.ba-before .ba-label { background:#3a2a25; color:rgba(255,255,255,.45); }
+.ba-after  .ba-label { background:var(--deep-rose); color:rgba(255,255,255,.95); }
+.ba-feed {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:3px;
+  background:#e8ddd9; padding:3px;
+}
+/* Before feed — messy, inconsistent */
+.ba-before .ba-feed { background:#d9d0cc; }
+.ba-post {
+  aspect-ratio:1; display:flex; align-items:center;
+  justify-content:center; font-size:9px;
+  font-family:'Jost',sans-serif; font-weight:300;
+  text-align:center; padding:4px; line-height:1.2;
+}
+.bp1  { background:#d4c4be; color:#8a6d65; }
+.bp2  { background:#c2b4af; color:#7a5d55; }
+.bp3  { background:#e0d5d0; color:#8a6d65; font-size:7px; }
+.bp4  { background:#b8a9a4; color:#fff; }
+.bp5  { background:#cfc3be; color:#7a5d55; }
+.bp6  { background:#ddd3cf; color:#8a6d65; font-size:7px; }
+.bp7  { background:#c5b8b3; color:#fff; }
+.bp8  { background:#e4dad6; color:#8a6d65; }
+.bp9  { background:#bfb2ac; color:#7a5d55; }
 
-  /* ── TRANSFORMATION ── */
-  #transformation {
-    padding: 80px 24px;
-    background: var(--dark);
-    text-align: center;
-    color: #fff;
-  }
-  #transformation h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2; margin-bottom: 12px;
-  }
-  #transformation h2 em { font-style: italic; color: var(--blush); }
-  #transformation .intro-p {
-    font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.6);
-    max-width: 460px; margin: 0 auto 48px; line-height: 1.7;
-  }
-  .transform-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .tf-box {
-    border-radius: 14px; padding: 28px 20px; text-align: left;
-  }
-  .tf-before { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); }
-  .tf-after { background: linear-gradient(135deg, rgba(212,146,122,0.18), rgba(181,112,90,0.1)); border: 1px solid rgba(212,146,122,0.25); }
-  .tf-label {
-    font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
-    font-weight: 500; margin-bottom: 18px; display: block;
-  }
-  .tf-before .tf-label { color: rgba(255,255,255,0.35); }
-  .tf-after .tf-label { color: var(--blush); }
-  .tf-box ul { list-style: none; }
-  .tf-box ul li {
-    font-size: 13px; font-weight: 300; line-height: 1.5;
-    padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
-  }
-  .tf-before ul li { color: rgba(255,255,255,0.4); }
-  .tf-before ul li::before { content: '— '; }
-  .tf-after ul li { color: rgba(255,255,255,0.85); }
-  .tf-after ul li::before { content: '✦ '; color: var(--blush); font-size: 10px; }
+/* After feed — elegant, cohesive */
+.ba-after .ba-feed { background:#e8d8d0; gap:3px; }
+.ap1  { background:linear-gradient(135deg,#c9907a,#b5705a); color:rgba(255,255,255,.9); font-size:8px; }
+.ap2  { background:linear-gradient(135deg,#d4b0a0,#c49080); color:rgba(255,255,255,.9); font-size:8px; }
+.ap3  { background:linear-gradient(135deg,#e8cfc7,#d4b5aa); color:var(--mid); font-size:8px; }
+.ap4  { background:linear-gradient(135deg,#b87f70,#9e6a5c); color:rgba(255,255,255,.9); font-size:8px; }
+.ap5  { background:linear-gradient(135deg,#d4927a,#c9907a); color:rgba(255,255,255,.9); font-size:8px; }
+.ap6  { background:linear-gradient(135deg,#c49688,#b5705a); color:rgba(255,255,255,.9); font-size:8px; }
+.ap7  { background:linear-gradient(135deg,#e0c4b8,#d4b5aa); color:var(--mid); font-size:8px; }
+.ap8  { background:linear-gradient(135deg,#c9907a,#b87f70); color:rgba(255,255,255,.9); font-size:8px; }
+.ap9  { background:linear-gradient(135deg,#d4b5aa,#c9907a); color:rgba(255,255,255,.9); font-size:8px; }
 
-  /* ── TESTIMONIALS ── */
-  #testimonials {
-    padding: 80px 24px;
-    background: var(--nude);
-    text-align: center;
-  }
-  #testimonials h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2; margin-bottom: 40px;
-  }
-  #testimonials h2 em { font-style: italic; color: var(--deep-rose); }
-  .testi-grid { display: grid; gap: 14px; max-width: 560px; margin: 0 auto; }
-  .testi-card {
-    background: #fff;
-    border: 1px solid var(--blush);
-    border-radius: 16px;
-    padding: 26px 24px;
-    text-align: left;
-  }
-  .testi-stars { color: var(--gold); font-size: 14px; letter-spacing: 2px; margin-bottom: 12px; }
-  .testi-text {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 17px; font-style: italic; font-weight: 400;
-    color: var(--mid); line-height: 1.6; margin-bottom: 16px;
-  }
-  .testi-author { display: flex; align-items: center; gap: 12px; }
-  .testi-avatar {
-    width: 40px; height: 40px; border-radius: 50%;
-    background: linear-gradient(135deg, var(--blush), var(--rose));
-    display: flex; align-items: center; justify-content: center;
-    font-size: 15px; flex-shrink: 0;
-  }
-  .testi-name { font-size: 13px; font-weight: 500; color: var(--dark); }
-  .testi-role { font-size: 11px; color: var(--taupe); margin-top: 2px; }
+.ba-caption { font-size:12px; color:var(--taupe); margin-top:8px; font-weight:300; }
+.ba-before .ba-caption { color:#9c8073; }
+.ba-after  .ba-caption { color:var(--deep-rose); font-weight:400; }
 
-  /* ── OFFER ── */
-  #offer {
-    padding: 80px 24px;
-    background: linear-gradient(175deg, var(--cream), var(--blush));
-    text-align: center;
-  }
-  #offer h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2; margin-bottom: 12px;
-  }
-  #offer h2 em { font-style: italic; color: var(--deep-rose); }
-  #offer .offer-desc {
-    font-size: 15px; color: var(--text-soft); font-weight: 300;
-    line-height: 1.7; max-width: 440px; margin: 0 auto 40px;
-  }
-  .offer-box {
-    background: #fff;
-    border: 1px solid var(--blush);
-    border-radius: 20px;
-    padding: 36px 28px;
-    max-width: 440px;
-    margin: 0 auto;
-    box-shadow: 0 20px 60px rgba(181,112,90,0.12);
-    position: relative;
-    overflow: hidden;
-  }
-  .offer-box::before {
-    content: '';
-    position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, var(--blush), var(--rose), var(--deep-rose));
-  }
-  .offer-inclusions { list-style: none; margin: 0 0 28px; text-align: left; }
-  .offer-inclusions li {
-    display: flex; align-items: flex-start; gap: 10px;
-    font-size: 14px; font-weight: 300; color: var(--text);
-    padding: 9px 0; border-bottom: 1px solid var(--nude);
-    line-height: 1.4;
-  }
-  .offer-inclusions li:last-child { border-bottom: none; }
-  .offer-inclusions li .chk {
-    width: 18px; height: 18px; flex-shrink: 0;
-    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    color: #fff; font-size: 9px; margin-top: 1px;
-  }
-  .price-block { margin: 28px 0 24px; }
-  .price-old { font-size: 14px; color: var(--taupe); text-decoration: line-through; margin-bottom: 4px; }
-  .price-main {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 64px; font-weight: 300; line-height: 1;
-    color: var(--dark);
-  }
-  .price-main sup { font-size: 24px; vertical-align: top; margin-top: 12px; display: inline-block; }
-  .price-main .cents { font-size: 28px; }
-  .price-note { font-size: 12px; color: var(--taupe); margin-top: 4px; }
-  .offer-guarantee {
-    margin-top: 20px;
-    display: flex; align-items: center; justify-content: center; gap: 8px;
-    font-size: 12px; color: var(--taupe);
-  }
-  .offer-guarantee span { font-size: 18px; }
+.ba-arrow {
+  display:flex; align-items:center; justify-content:center;
+  font-size:22px; color:var(--rose);
+  position:absolute; left:50%; top:50%;
+  transform:translate(-50%,-50%);
+  background:#fff; width:36px; height:36px;
+  border-radius:50%; box-shadow:0 4px 14px rgba(181,112,90,.25);
+}
+.ba-wrapper-outer { position:relative; }
+.ba-tags {
+  display:flex; flex-wrap:wrap; gap:8px;
+  justify-content:center; margin-top:12px;
+}
+.ba-tag {
+  font-size:11px; font-weight:300;
+  padding:5px 14px; border-radius:30px;
+  color:var(--text-soft); background:var(--nude);
+  border:1px solid var(--blush);
+}
 
-  /* ── FAQ ── */
-  #faq {
-    padding: 80px 24px;
-    background: var(--warm-white);
-    text-align: center;
-  }
-  #faq h2 {
-    font-size: clamp(26px, 6vw, 40px);
-    font-weight: 300; line-height: 1.2; margin-bottom: 40px;
-  }
-  #faq h2 em { font-style: italic; color: var(--deep-rose); }
-  .faq-list { max-width: 560px; margin: 0 auto; text-align: left; }
-  .faq-item {
-    border-bottom: 1px solid var(--blush);
-    padding: 20px 0;
-  }
-  .faq-q {
-    display: flex; justify-content: space-between; align-items: center;
-    cursor: pointer; gap: 16px;
-  }
-  .faq-q h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: var(--dark); line-height: 1.4; }
-  .faq-toggle {
-    width: 28px; height: 28px; flex-shrink: 0;
-    border-radius: 50%;
-    background: var(--nude);
-    border: 1px solid var(--blush);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 16px; color: var(--rose);
-    transition: transform 0.3s, background 0.3s;
-    user-select: none;
-  }
-  .faq-item.open .faq-toggle { transform: rotate(45deg); background: var(--rose); color: #fff; }
-  .faq-a {
-    font-size: 13px; font-weight: 300; color: var(--text-soft);
-    line-height: 1.7; max-height: 0; overflow: hidden;
-    transition: max-height 0.4s ease, padding 0.3s;
-  }
-  .faq-item.open .faq-a { max-height: 200px; padding-top: 14px; }
+/* ════════════════════════════════
+   PRODUCT KIT
+════════════════════════════════ */
+#product {
+  padding:72px 20px;
+  background:linear-gradient(180deg,var(--nude) 0%,var(--warm-white) 100%);
+  text-align:center;
+}
+#product h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:10px;
+}
+#product h2 em { font-style:italic; color:var(--deep-rose); }
+#product .section-desc {
+  font-size:15px; color:var(--text-soft); font-weight:300;
+  line-height:1.75; max-width:460px; margin:0 auto 40px;
+}
+.product-grid {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:10px; margin-bottom:28px;
+}
+.product-item {
+  background:#fff; border:1px solid var(--blush);
+  border-radius:var(--radius); padding:20px 16px;
+  text-align:left; transition:box-shadow .25s, transform .25s;
+}
+.product-item:hover { box-shadow:0 8px 28px rgba(181,112,90,.12); transform:translateY(-2px); }
+.product-item .p-icon { font-size:24px; margin-bottom:9px; }
+.product-item h3 {
+  font-family:'Jost',sans-serif;
+  font-size:13px; font-weight:500; color:var(--dark); margin-bottom:5px;
+}
+.product-item p { font-size:12px; color:var(--taupe); line-height:1.5; font-weight:300; }
+.product-total {
+  background:linear-gradient(135deg,var(--dark) 0%,var(--mid) 100%);
+  border-radius:var(--radius-lg); padding:26px 22px; color:#fff; text-align:center;
+}
+.product-total span {
+  display:block; font-family:'Cormorant Garamond',serif;
+  font-size:28px; font-weight:300; margin-bottom:6px;
+}
+.product-total p { font-size:13px; color:rgba(255,255,255,.58); font-weight:300; }
 
-  /* ── FINAL CTA ── */
-  #final {
-    padding: 100px 24px;
-    background: linear-gradient(160deg, var(--dark) 0%, #1a0f0d 100%);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  #final::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 70% 50% at 50% 80%, rgba(212,146,122,0.12) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  #final .tag { background: rgba(212,146,122,0.15); }
-  #final h2 {
-    font-size: clamp(32px, 8vw, 52px);
-    font-weight: 300; line-height: 1.15;
-    color: #fff; margin-bottom: 16px;
-  }
-  #final h2 em { font-style: italic; color: var(--blush); }
-  #final p {
-    font-size: 15px; font-weight: 300;
-    color: rgba(255,255,255,0.55);
-    max-width: 420px; margin: 0 auto 40px; line-height: 1.7;
-  }
-  .final-cta-group { display: flex; flex-direction: column; align-items: center; gap: 16px; }
-  .final-note { font-size: 12px; color: rgba(255,255,255,0.35); }
+/* ════════════════════════════════
+   BENEFITS
+════════════════════════════════ */
+#benefits { padding:72px 20px; background:var(--warm-white); text-align:center; }
+#benefits h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:40px;
+}
+#benefits h2 em { font-style:italic; color:var(--deep-rose); }
+.benefit-list { display:grid; gap:12px; max-width:540px; margin:0 auto; }
+.benefit-row {
+  display:flex; gap:14px; align-items:flex-start;
+  background:var(--cream); border:1px solid var(--blush);
+  border-radius:var(--radius); padding:18px 20px; text-align:left;
+}
+.benefit-dot {
+  width:9px; height:9px; flex-shrink:0; margin-top:6px;
+  background:linear-gradient(135deg,var(--rose),var(--deep-rose));
+  border-radius:50%;
+}
+.benefit-row h3 {
+  font-family:'Jost',sans-serif;
+  font-size:13.5px; font-weight:500; color:var(--dark); margin-bottom:4px;
+}
+.benefit-row p { font-size:12.5px; color:var(--text-soft); font-weight:300; line-height:1.5; }
 
-  /* ── FOOTER ── */
-  footer {
-    padding: 32px 24px;
-    background: var(--dark);
-    border-top: 1px solid rgba(255,255,255,0.05);
-    text-align: center;
-  }
-  footer p { font-size: 12px; color: rgba(255,255,255,0.25); line-height: 1.6; }
-  footer a { color: rgba(255,255,255,0.35); text-decoration: none; }
-  footer a:hover { color: var(--blush); }
+/* ════════════════════════════════
+   TESTIMONIALS
+════════════════════════════════ */
+#testimonials { padding:72px 20px; background:var(--nude); text-align:center; }
+#testimonials h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:36px;
+}
+#testimonials h2 em { font-style:italic; color:var(--deep-rose); }
+.testi-grid { display:grid; gap:12px; max-width:540px; margin:0 auto; }
+.testi-card {
+  background:#fff; border:1px solid var(--blush);
+  border-radius:16px; padding:24px 22px; text-align:left;
+}
+.testi-stars { color:var(--gold); font-size:13px; letter-spacing:2px; margin-bottom:11px; }
+.testi-text {
+  font-family:'Cormorant Garamond',serif;
+  font-size:16.5px; font-style:italic; font-weight:400;
+  color:var(--mid); line-height:1.65; margin-bottom:14px;
+}
+.testi-author { display:flex; align-items:center; gap:11px; }
+.testi-avatar {
+  width:38px; height:38px; border-radius:50%; flex-shrink:0;
+  background:linear-gradient(135deg,var(--blush),var(--rose));
+  display:flex; align-items:center; justify-content:center; font-size:14px;
+}
+.testi-name  { font-size:12.5px; font-weight:500; color:var(--dark); }
+.testi-role  { font-size:11px; color:var(--taupe); margin-top:2px; }
 
-  /* ── DIVIDERS ── */
-  .section-divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--blush), transparent);
-    margin: 0 auto; max-width: 200px;
-  }
+/* ════════════════════════════════
+   OFFER
+════════════════════════════════ */
+#offer {
+  padding:72px 20px;
+  background:linear-gradient(170deg,var(--cream),var(--blush));
+  text-align:center;
+}
+#offer h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:10px;
+}
+#offer h2 em { font-style:italic; color:var(--deep-rose); }
+#offer .offer-desc {
+  font-size:15px; color:var(--text-soft); font-weight:300;
+  line-height:1.75; max-width:420px; margin:0 auto 36px;
+}
+.offer-box {
+  background:#fff; border:1px solid var(--blush);
+  border-radius:var(--radius-lg); padding:32px 24px;
+  max-width:420px; margin:0 auto;
+  box-shadow:0 20px 56px rgba(181,112,90,.12);
+  position:relative; overflow:hidden;
+}
+.offer-box::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:3px;
+  background:linear-gradient(90deg,var(--blush),var(--rose),var(--deep-rose));
+}
+.offer-inclusions { list-style:none; margin:0 0 26px; text-align:left; }
+.offer-inclusions li {
+  display:flex; align-items:flex-start; gap:10px;
+  font-size:13.5px; font-weight:300; color:var(--text);
+  padding:8px 0; border-bottom:1px solid var(--nude); line-height:1.4;
+}
+.offer-inclusions li:last-child { border-bottom:none; }
+.offer-inclusions li .chk {
+  width:17px; height:17px; flex-shrink:0;
+  background:linear-gradient(135deg,var(--rose),var(--deep-rose));
+  border-radius:50%; display:flex; align-items:center;
+  justify-content:center; color:#fff; font-size:9px; margin-top:1px;
+}
+.price-block { margin:24px 0 22px; }
+.price-old { font-size:13px; color:var(--taupe); text-decoration:line-through; margin-bottom:3px; }
+.price-main {
+  font-family:'Cormorant Garamond',serif;
+  font-size:60px; font-weight:300; line-height:1; color:var(--dark);
+}
+.price-main sup  { font-size:22px; vertical-align:top; margin-top:11px; display:inline-block; }
+.price-note      { font-size:11.5px; color:var(--taupe); margin-top:4px; }
+.offer-guarantee {
+  margin-top:18px; display:flex; align-items:center;
+  justify-content:center; gap:7px;
+  font-size:11.5px; color:var(--taupe);
+}
+.offer-guarantee span { font-size:17px; }
 
-  /* ── ANIMATIONS ── */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .fade-up { opacity: 0; animation: fadeUp 0.8s ease forwards; }
-  .delay-1 { animation-delay: 0.15s; }
-  .delay-2 { animation-delay: 0.3s; }
-  .delay-3 { animation-delay: 0.45s; }
-  .delay-4 { animation-delay: 0.6s; }
+/* ════════════════════════════════
+   FAQ
+════════════════════════════════ */
+#faq { padding:72px 20px; background:var(--warm-white); text-align:center; }
+#faq h2 {
+  font-size:clamp(24px,6vw,38px);
+  font-weight:300; line-height:1.2; margin-bottom:36px;
+}
+#faq h2 em { font-style:italic; color:var(--deep-rose); }
+.faq-list { max-width:540px; margin:0 auto; text-align:left; }
+.faq-item { border-bottom:1px solid var(--blush); padding:18px 0; }
+.faq-q    { display:flex; justify-content:space-between; align-items:center; cursor:pointer; gap:14px; }
+.faq-q h3 {
+  font-family:'Jost',sans-serif;
+  font-size:13.5px; font-weight:500; color:var(--dark); line-height:1.4;
+}
+.faq-toggle {
+  width:26px; height:26px; flex-shrink:0; border-radius:50%;
+  background:var(--nude); border:1px solid var(--blush);
+  display:flex; align-items:center; justify-content:center;
+  font-size:15px; color:var(--rose);
+  transition:transform .3s, background .3s; user-select:none;
+}
+.faq-item.open .faq-toggle { transform:rotate(45deg); background:var(--rose); color:#fff; }
+.faq-a {
+  font-size:13px; font-weight:300; color:var(--text-soft);
+  line-height:1.75; max-height:0; overflow:hidden;
+  transition:max-height .4s ease, padding-top .3s;
+}
+.faq-item.open .faq-a { max-height:220px; padding-top:12px; }
 
-  /* ── SCROLL REVEAL ── */
-  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
+/* ════════════════════════════════
+   FINAL CTA
+════════════════════════════════ */
+#final {
+  padding:96px 20px;
+  background:linear-gradient(155deg,var(--dark) 0%,#1a0f0d 100%);
+  text-align:center; position:relative; overflow:hidden;
+}
+#final::before {
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(ellipse 70% 50% at 50% 80%, rgba(212,146,122,.12) 0%, transparent 70%);
+}
+#final .tag { background:rgba(212,146,122,.15); position:relative; }
+#final h2 {
+  font-size:clamp(30px,7.5vw,50px);
+  font-weight:300; line-height:1.15;
+  color:#fff; margin-bottom:14px; position:relative;
+}
+#final h2 em { font-style:italic; color:var(--blush); }
+#final p {
+  font-size:15px; font-weight:300;
+  color:rgba(255,255,255,.52);
+  max-width:400px; margin:0 auto 36px; line-height:1.75;
+  position:relative;
+}
+.final-cta-group { display:flex; flex-direction:column; align-items:center; gap:14px; position:relative; }
+.final-note { font-size:11.5px; color:rgba(255,255,255,.32); }
 
-  /* ── RESPONSIVE ── */
-  @media (max-width: 480px) {
-    .product-grid { grid-template-columns: 1fr; }
-    .transform-row { grid-template-columns: 1fr; }
-    .stat-row { grid-template-columns: 1fr 1fr; }
-    .mockup-grid { grid-template-columns: repeat(3, 1fr); }
-    .price-main { font-size: 52px; }
-  }
+/* ════════════════════════════════
+   FOOTER
+════════════════════════════════ */
+footer {
+  padding:28px 20px;
+  background:var(--dark);
+  border-top:1px solid rgba(255,255,255,.05);
+  text-align:center;
+}
+footer p  { font-size:11.5px; color:rgba(255,255,255,.22); line-height:1.7; }
+footer a  { color:rgba(255,255,255,.32); text-decoration:none; }
+footer a:hover { color:var(--blush); }
+
+/* ════════════════════════════════
+   ANIMATIONS
+════════════════════════════════ */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(22px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes ctaPulse {
+  0%,100% { box-shadow:0 12px 36px rgba(181,112,90,.35); }
+  50%     { box-shadow:0 16px 50px rgba(181,112,90,.55); }
+}
+.fade-up              { opacity:0; animation:fadeUp .8s ease forwards; }
+.d1 { animation-delay:.12s; }
+.d2 { animation-delay:.24s; }
+.d3 { animation-delay:.38s; }
+.d4 { animation-delay:.52s; }
+
+.reveal { opacity:0; transform:translateY(18px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity:1; transform:translateY(0); }
+
+/* ════════════════════════════════
+   RESPONSIVE — MOBILE FIRST
+════════════════════════════════ */
+@media (max-width:480px) {
+  .container         { padding:0 16px; }
+  #hero              { padding:88px 16px 52px; }
+  #hero h1           { font-size:clamp(32px,9vw,44px); }
+  .product-grid      { grid-template-columns:1fr; }
+  .ba-wrapper        { grid-template-columns:1fr; gap:10px; }
+  .ba-arrow          { display:none; }
+  .stat-row          { grid-template-columns:1fr 1fr; }
+  .kit-grid          { grid-template-columns:repeat(3,1fr); }
+  .price-main        { font-size:50px; }
+  .offer-box         { padding:28px 18px; }
+  nav                { padding:12px 16px; }
+}
+@media (max-width:360px) {
+  .kit-cell span { display:none; }
+}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav>
+<!-- ══════════════════════════
+     NAVBAR
+══════════════════════════ -->
+<nav aria-label="Navegação principal">
   <div class="nav-inner">
     <div class="nav-logo">lash<span>studio</span> kit</div>
-    <a href="#offer" class="btn-ghost">Quero agora →</a>
+    <a href="#offer" class="btn-soft" aria-label="Ir para a oferta">Quero agora →</a>
   </div>
 </nav>
 
-<!-- ── HERO ── -->
-<section id="hero">
-  <div class="hero-ornament">lash</div>
+
+<!-- ══════════════════════════
+     HERO
+══════════════════════════ -->
+<section id="hero" aria-labelledby="hero-heading">
+  <div class="hero-ornament" aria-hidden="true">lash</div>
   <div class="container hero-content">
+
     <div class="tag fade-up">✦ Kit Visual para Lash Designers</div>
-    <h1 class="fade-up delay-1">
-      O seu talento merece um perfil<br>
-      <em>tão bonito quanto o seu trabalho</em>
+
+    <h1 id="hero-heading" class="fade-up d1">
+      Clientes julgam seu perfil<br>
+      <em>antes de ver o seu trabalho.</em>
     </h1>
-    <p class="sub fade-up delay-2">
-      Templates editáveis no Canva para lash designers que querem atrair mais clientes, parecer mais profissional e economizar horas de trabalho toda semana.
+
+    <p class="sub fade-up d2">
+      Templates premium editáveis no Canva para lash designers que querem transmitir profissionalismo, atrair mais clientes e parar de perder tempo criando posts do zero.
     </p>
-    <div class="hero-cta-group fade-up delay-3">
-      <a href="#offer" class="btn-primary">✦ Quero transformar meu perfil</a>
+
+    <div class="hero-cta-group fade-up d3">
+      <a href="#offer" class="btn-primary">✦ Quero deixar meu perfil mais profissional</a>
       <span class="hero-note">Acesso imediato · Editável no Canva · Sem mensalidades</span>
     </div>
 
-    <div class="mockup-area fade-up delay-4">
-      <span class="mock-badge">+100 templates</span>
-      <div class="mockup-grid">
-        <div class="mock-card mc1">
-          <div class="icon">✦</div>
-          <span>Feed<br>Instagram</span>
-        </div>
-        <div class="mock-card mc2">
-          <div class="icon">◈</div>
-          <span>Stories<br>Promoções</span>
-        </div>
-        <div class="mock-card mc3">
-          <div class="icon">❋</div>
-          <span>Cartão<br>de Visita</span>
-        </div>
-        <div class="mock-card mc4">
-          <div class="icon">◇</div>
-          <span>Catálogo<br>de Preços</span>
-        </div>
-        <div class="mock-card mc5">
-          <div class="icon">✿</div>
-          <span>Vouchers<br>& Cupons</span>
-        </div>
-        <div class="mock-card mc6">
-          <div class="icon">❀</div>
-          <span>Flyers<br>& Marca</span>
-        </div>
+    <!-- Kit preview -->
+    <div class="kit-preview fade-up d4">
+      <span class="kit-badge">Kit premium selecionado</span>
+      <div class="kit-grid" aria-hidden="true">
+        <div class="kit-cell kc1"><div class="kc-icon">✦</div><span>Feed<br>Instagram</span></div>
+        <div class="kit-cell kc2"><div class="kc-icon">◈</div><span>Stories<br>Promoções</span></div>
+        <div class="kit-cell kc3"><div class="kc-icon">❋</div><span>Cartão<br>de Visita</span></div>
+        <div class="kit-cell kc4"><div class="kc-icon">◇</div><span>Catálogo<br>de Preços</span></div>
+        <div class="kit-cell kc5"><div class="kc-icon">✿</div><span>Vouchers<br>& Cupons</span></div>
+        <div class="kit-cell kc6"><div class="kc-icon">❀</div><span>Flyers<br>& Marca</span></div>
       </div>
     </div>
+
   </div>
 </section>
 
-<!-- ── PAIN ── -->
-<section id="pain">
+
+<!-- ══════════════════════════
+     PAIN
+══════════════════════════ -->
+<section id="pain" aria-labelledby="pain-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">Você já se sentiu assim?</div>
-      <h2>Você posta todo dia,<br><em>mas os clientes não chegam.</em></h2>
-      <p class="intro-p">
-        Não é porque o seu trabalho não é bom. É porque o seu perfil ainda não comunica o quanto você é profissional.
-      </p>
+      <h2 id="pain-heading">Você posta todo dia,<br><em>mas as clientes não chegam.</em></h2>
+      <p class="intro-p">Não é porque o seu trabalho não é bom. É porque o seu perfil ainda não comunica o quanto você é profissional.</p>
     </div>
-
     <div class="pain-cards reveal">
       <div class="pain-card">
-        <div class="pain-icon">📱</div>
+        <div class="pain-icon" aria-hidden="true">📱</div>
         <div>
           <h3>Perfil que não transmite confiança</h3>
-          <p>Fotos boas, mas sem identidade visual. A cliente visita o perfil e não sente aquela segurança de querer agendar.</p>
+          <p>Fotos boas, mas sem identidade visual. A cliente visita e não sente aquela segurança de querer agendar.</p>
         </div>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">⏳</div>
+        <div class="pain-icon" aria-hidden="true">⏳</div>
         <div>
           <h3>Horas perdidas criando posts do zero</h3>
-          <p>Canva aberto, tela em branco, uma hora depois ainda tentando deixar bonito. Enquanto isso, o tempo que poderia ser lucro vai embora.</p>
+          <p>Canva aberto, tela em branco. Uma hora depois ainda tentando deixar bonito — tempo que poderia ser lucro.</p>
         </div>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">👁️</div>
+        <div class="pain-icon" aria-hidden="true">👁️</div>
         <div>
           <h3>Outras lash designers crescendo mais rápido</h3>
-          <p>Você sabe que é tão boa quanto elas. Mas o perfil delas parece mais profissional, mais premium. E a clientela percebe isso.</p>
+          <p>Você é tão boa quanto elas. Mas o perfil delas parece mais premium. E a clientela percebe isso.</p>
         </div>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">💭</div>
+        <div class="pain-icon" aria-hidden="true">💭</div>
         <div>
           <h3>A sensação de não estar sendo levada a sério</h3>
-          <p>Você se dedica, estuda, investe no seu trabalho. Merecia ser reconhecida por isso desde o primeiro contato no Instagram.</p>
+          <p>Você estuda, investe, se dedica. Merecia ser reconhecida desde o primeiro contato no Instagram.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── PERCEPTION ── -->
-<section id="perception">
+
+<!-- ══════════════════════════
+     MICRO CTA 1
+══════════════════════════ -->
+<div class="micro-cta micro-cta--dark reveal">
+  <a href="#offer" class="btn-primary">Quero transformar meu Instagram →</a>
+</div>
+
+
+<!-- ══════════════════════════
+     PERCEPTION
+══════════════════════════ -->
+<section id="perception" aria-labelledby="perception-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">A verdade que ninguém fala</div>
-      <h2>Antes de agendar,<br><em>a cliente já decidiu.</em></h2>
-      <p>
-        Em menos de 8 segundos, quem visita o seu perfil já formou uma opinião sobre você. Não sobre o seu serviço — sobre a sua marca.
-      </p>
-      <p>
-        Um perfil com identidade visual coerente, posts bem feitos e uma estética premium comunica: <strong>essa profissional é séria, cobra o que vale.</strong>
-      </p>
+      <h2 id="perception-heading">Antes de agendar,<br><em>a cliente já decidiu.</em></h2>
+      <p>Em menos de 8 segundos, quem visita o seu perfil já formou uma opinião sobre você. Não sobre o seu serviço — sobre a sua marca.</p>
+      <p>Um perfil com identidade visual coerente, materiais profissionais e uma estética cuidadosamente criada comunica: <strong>essa profissional é séria, cobra o que vale.</strong></p>
     </div>
-
     <blockquote class="perception-quote reveal">
       "A cliente não vê o seu certificado quando abre o Instagram. Ela vê o seu feed — e decide na hora se confia em você."
     </blockquote>
-
-    <p class="reveal" style="font-size:15px;color:var(--text-soft);font-weight:300;line-height:1.8;">
-      Não é sobre ser perfeita. É sobre parecer tão profissional quanto você realmente é. E isso começa pela apresentação visual do seu negócio.
-    </p>
-
     <div class="stat-row reveal">
       <div class="stat-box">
         <div class="stat-num">94%</div>
@@ -796,87 +805,157 @@
       </div>
       <div class="stat-box">
         <div class="stat-num">8s</div>
-        <div class="stat-label">é o tempo que uma visitante leva para julgar se vai seguir ou sair</div>
+        <div class="stat-label">é o tempo que uma visitante leva para decidir se segue ou sai</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── PRODUCT ── -->
-<section id="product">
+
+<!-- ══════════════════════════
+     BEFORE / AFTER (nova seção)
+══════════════════════════ -->
+<section id="before-after" aria-labelledby="ba-heading">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">A diferença que você vai sentir</div>
+      <h2 id="ba-heading">O mesmo trabalho.<br><em>Perfis completamente diferentes.</em></h2>
+      <p class="section-desc">Veja como uma identidade visual bem executada transforma completamente a percepção de quem visita o seu perfil.</p>
+    </div>
+
+    <div class="ba-wrapper-outer reveal">
+      <div class="ba-wrapper">
+
+        <!-- BEFORE -->
+        <div class="ba-panel ba-before">
+          <span class="ba-label">Antes do kit</span>
+          <div class="ba-feed" aria-label="Exemplo de feed desorganizado">
+            <div class="ba-post bp1">foto</div>
+            <div class="ba-post bp2">PROMO!!</div>
+            <div class="ba-post bp3">resultado</div>
+            <div class="ba-post bp4">foto</div>
+            <div class="ba-post bp5">serviços</div>
+            <div class="ba-post bp6">resultado</div>
+            <div class="ba-post bp7">foto</div>
+            <div class="ba-post bp8">promo</div>
+            <div class="ba-post bp9">foto</div>
+          </div>
+          <p class="ba-caption">Sem padrão · Sem identidade · Sem conexão</p>
+        </div>
+
+        <!-- AFTER -->
+        <div class="ba-panel ba-after">
+          <span class="ba-label">Com o kit premium</span>
+          <div class="ba-feed" aria-label="Exemplo de feed elegante e profissional">
+            <div class="ba-post ap1">lash</div>
+            <div class="ba-post ap2">studio</div>
+            <div class="ba-post ap3">elegance</div>
+            <div class="ba-post ap4">lash</div>
+            <div class="ba-post ap5">beauty</div>
+            <div class="ba-post ap6">by you</div>
+            <div class="ba-post ap7">premium</div>
+            <div class="ba-post ap8">lash</div>
+            <div class="ba-post ap9">care</div>
+          </div>
+          <p class="ba-caption">Harmônico · Elegante · Profissional</p>
+        </div>
+
+      </div><!-- .ba-wrapper -->
+
+      <div class="ba-tags">
+        <span class="ba-tag">Identidade visual coerente</span>
+        <span class="ba-tag">Paleta de cores elegante</span>
+        <span class="ba-tag">Transmite confiança</span>
+        <span class="ba-tag">Pronta em minutos</span>
+      </div>
+    </div><!-- .ba-wrapper-outer -->
+  </div>
+</section>
+
+
+<!-- ══════════════════════════
+     PRODUCT
+══════════════════════════ -->
+<section id="product" aria-labelledby="product-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">O que está incluído</div>
-      <h2>Tudo que você precisa<br><em>para um perfil de respeito</em></h2>
-      <p class="sub-desc">
-        Um kit completo de templates profissionais, pensados especialmente para lash designers — e que funcionam igualmente bem para nail e sobrancelha.
-      </p>
+      <h2 id="product-heading">Materiais cuidadosamente<br><em>criados para você</em></h2>
+      <p class="section-desc">Um kit profissional e selecionado, pensado especialmente para lash designers — e que funciona para nail e sobrancelha também.</p>
     </div>
-
     <div class="product-grid reveal">
       <div class="product-item">
         <div class="p-icon">🖼️</div>
         <h3>Feed do Instagram</h3>
-        <p>Postagens elegantes para apresentar seus trabalhos, serviços e promoções com estética unificada.</p>
+        <p>Posts elegantes para apresentar trabalhos, serviços e promoções com estética unificada.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">📱</div>
         <h3>Stories Templates</h3>
-        <p>Destaques, enquetes, apresentações de serviço e promoções que prendem a atenção.</p>
+        <p>Destaques e apresentações de serviço que prendem a atenção e geram agendamentos.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">💌</div>
         <h3>Posts de Promoção</h3>
-        <p>Artes prontas para divulgar promoções, datas comemorativas e campanhas sazonais.</p>
+        <p>Artes prontas para datas comemorativas, campanhas e divulgações sazonais.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">📋</div>
         <h3>Catálogos de Serviços</h3>
-        <p>Tabelas e catálogos editáveis para apresentar seus serviços com preço e estilo premium.</p>
+        <p>Tabelas editáveis para apresentar seus serviços com preço e visual premium.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">💳</div>
         <h3>Cartão de Visita</h3>
-        <p>Design profissional para imprimir ou compartilhar digitalmente com novas clientes.</p>
+        <p>Design profissional para imprimir ou compartilhar digitalmente.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">🎁</div>
         <h3>Vouchers & Cupons</h3>
-        <p>Artes para presentear clientes e gerar indicações com muito mais elegância.</p>
+        <p>Para presentear clientes e gerar indicações com muito mais elegância.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">📄</div>
         <h3>Flyers Impressos</h3>
-        <p>Para usar em salões parceiros, eventos ou distribuição física no seu bairro.</p>
+        <p>Para salões parceiros, eventos ou distribuição física no seu bairro.</p>
       </div>
       <div class="product-item">
         <div class="p-icon">✨</div>
-        <h3>Materiais de Branding</h3>
-        <p>Logotipos editáveis, paleta de cores e identidade visual completa para a sua marca.</p>
+        <h3>Branding Completo</h3>
+        <p>Elementos de marca, paleta de cores e materiais de identidade visual editáveis.</p>
       </div>
     </div>
-
     <div class="product-total reveal">
-      <span>+100 templates editáveis</span>
-      <p>Tudo personalizável no Canva — sem precisar saber design, sem mensalidade, sem complicação.</p>
+      <span>Kit premium completo</span>
+      <p>Todos os materiais editáveis no Canva — sem precisar saber design, sem mensalidade.</p>
     </div>
   </div>
 </section>
 
-<!-- ── BENEFITS ── -->
-<section id="benefits">
+
+<!-- ══════════════════════════
+     MICRO CTA 2
+══════════════════════════ -->
+<div class="micro-cta reveal" style="background:var(--nude);">
+  <a href="#offer" class="btn-primary">Quero acessar o kit agora →</a>
+</div>
+
+
+<!-- ══════════════════════════
+     BENEFITS
+══════════════════════════ -->
+<section id="benefits" aria-labelledby="benefits-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">O que muda para você</div>
-      <h2>Menos tempo no celular.<br><em>Mais clientes na agenda.</em></h2>
+      <h2 id="benefits-heading">Menos tempo no celular.<br><em>Mais clientes na agenda.</em></h2>
     </div>
-
     <div class="benefit-list">
       <div class="benefit-row reveal">
         <div class="benefit-dot"></div>
         <div>
           <h3>Economize horas toda semana</h3>
-          <p>Nada mais de ficar horas criando posts do zero. Abre o template, edita em minutos, publica. Simples assim.</p>
+          <p>Nada mais de ficar horas criando do zero. Abre o template, edita em minutos, publica. Simples assim.</p>
         </div>
       </div>
       <div class="benefit-row reveal">
@@ -889,116 +968,77 @@
       <div class="benefit-row reveal">
         <div class="benefit-dot"></div>
         <div>
-          <h3>Pareça mais profissional do que concorrentes</h3>
-          <p>Enquanto outras lash designers ainda usam templates genéricos, o seu perfil vai se destacar com estética exclusiva.</p>
+          <h3>Destaque-se das concorrentes</h3>
+          <p>Enquanto outras usam templates genéricos, o seu perfil vai ter uma estética profissional e exclusiva.</p>
         </div>
       </div>
       <div class="benefit-row reveal">
         <div class="benefit-dot"></div>
         <div>
-          <h3>Justifique (e eleve) os seus preços</h3>
+          <h3>Justifique (e eleve) seus preços</h3>
           <p>Um perfil premium aumenta a percepção de valor. Quando você parece premium, cobrar mais se torna natural.</p>
         </div>
       </div>
       <div class="benefit-row reveal">
         <div class="benefit-dot"></div>
         <div>
-          <h3>Funciona para iniciantes e profissionais</h3>
-          <p>Não precisa saber design. Se você consegue trocar um texto e uma foto no Canva, já está pronta para usar.</p>
+          <h3>Funciona para iniciantes e experientes</h3>
+          <p>Se você consegue trocar um texto e uma foto no Canva, já está pronta para usar todos os materiais.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── TRANSFORMATION ── -->
-<section id="transformation">
-  <div class="container">
-    <div class="reveal">
-      <div class="tag">A transformação</div>
-      <h2>De perfil comum<br><em>para marca que encanta</em></h2>
-      <p class="intro-p">
-        Não é mágica. É posicionamento. É comunicação visual feita com intenção — e qualquer pessoa consegue fazer.
-      </p>
-    </div>
 
-    <div class="transform-row reveal">
-      <div class="tf-box tf-before">
-        <span class="tf-label">Antes</span>
-        <ul>
-          <li>Posts sem padrão visual</li>
-          <li>Cores e fontes misturadas</li>
-          <li>Perfil parece amador</li>
-          <li>Poucas curtidas, menos ainda agendamentos</li>
-          <li>Horas gastas criando cada post</li>
-          <li>Não transmite confiança</li>
-        </ul>
-      </div>
-      <div class="tf-box tf-after">
-        <span class="tf-label">Depois</span>
-        <ul>
-          <li>Feed harmonioso e elegante</li>
-          <li>Identidade visual consistente</li>
-          <li>Perfil exala profissionalismo</li>
-          <li>Novas clientes chegando pelo Instagram</li>
-          <li>Posts prontos em minutos</li>
-          <li>Marca que gera confiança</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── TESTIMONIALS ── -->
-<section id="testimonials">
+<!-- ══════════════════════════
+     TESTIMONIALS
+══════════════════════════ -->
+<section id="testimonials" aria-labelledby="testi-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">Quem já transformou</div>
-      <h2>O que as meninas<br><em>estão dizendo</em></h2>
+      <h2 id="testi-heading">O que as meninas<br><em>estão dizendo</em></h2>
     </div>
-
     <div class="testi-grid">
       <div class="testi-card reveal">
         <div class="testi-stars">★★★★★</div>
-        <p class="testi-text">"Eu não sabia nada de design e achei que ia ser difícil. Fui usar e em menos de 30 minutos já tinha meu feed todo reformulado. Nunca me senti tão profissional."</p>
+        <p class="testi-text">"Não sabia nada de design e achei que ia ser difícil. Em menos de 30 minutos já tinha meu feed completamente reformulado. Nunca me senti tão profissional."</p>
         <div class="testi-author">
-          <div class="testi-avatar">🌸</div>
+          <div class="testi-avatar" aria-hidden="true">🌸</div>
           <div>
             <div class="testi-name">Isabela Moura</div>
             <div class="testi-role">Lash Designer · São Paulo, SP</div>
           </div>
         </div>
       </div>
-
       <div class="testi-card reveal">
         <div class="testi-stars">★★★★★</div>
-        <p class="testi-text">"Meu perfil estava horrível e eu sabia, só não tinha tempo pra resolver. Com o kit resolvi tudo num sábado à tarde. Na semana seguinte já vieram 3 clientes novas do Instagram."</p>
+        <p class="testi-text">"Meu perfil estava horrível e eu sabia, só não tinha tempo pra resolver. Com o kit resolvi tudo num sábado. Na semana seguinte já vieram 3 clientes novas pelo Instagram."</p>
         <div class="testi-author">
-          <div class="testi-avatar">✨</div>
+          <div class="testi-avatar" aria-hidden="true">✨</div>
           <div>
             <div class="testi-name">Fernanda Rocha</div>
             <div class="testi-role">Lash & Nail Designer · Curitiba, PR</div>
           </div>
         </div>
       </div>
-
       <div class="testi-card reveal">
         <div class="testi-stars">★★★★★</div>
-        <p class="testi-text">"O catálogo de preços que fiz com o kit é tão lindo que agora até tenho mais coragem de mostrar meus valores. Parece coisa de estúdio sofisticado — não de atendimento em casa."</p>
+        <p class="testi-text">"O catálogo de preços que fiz é tão lindo que agora tenho mais coragem de mostrar meus valores. Parece coisa de estúdio sofisticado — e não atendo em salão, atendo em casa."</p>
         <div class="testi-author">
-          <div class="testi-avatar">💎</div>
+          <div class="testi-avatar" aria-hidden="true">💎</div>
           <div>
             <div class="testi-name">Amanda Silva</div>
             <div class="testi-role">Lash Designer · Belo Horizonte, MG</div>
           </div>
         </div>
       </div>
-
       <div class="testi-card reveal">
         <div class="testi-stars">★★★★★</div>
-        <p class="testi-text">"Comprei achando que seria mais um template básico. Me surpreendi demais. A qualidade é de agência de design. Vale muito mais do que o preço."</p>
+        <p class="testi-text">"Achei que seria mais um template básico. Me surpreendi demais. A qualidade é de agência de design. Vale muito mais do que o preço."</p>
         <div class="testi-author">
-          <div class="testi-avatar">🌷</div>
+          <div class="testi-avatar" aria-hidden="true">🌷</div>
           <div>
             <div class="testi-name">Camila Andrade</div>
             <div class="testi-role">Designer de Sobrancelhas · Rio de Janeiro, RJ</div>
@@ -1009,149 +1049,125 @@
   </div>
 </section>
 
-<!-- ── OFFER ── -->
-<section id="offer">
+
+<!-- ══════════════════════════
+     OFFER
+══════════════════════════ -->
+<section id="offer" aria-labelledby="offer-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">A oferta</div>
-      <h2>Tudo isso por<br><em>muito menos do que você imagina</em></h2>
-      <p class="offer-desc">
-        Uma identidade visual feita por designer custa entre R$800 e R$3.000. Aqui você tem tudo pronto, editável, pelo preço de um cafezinho por semana.
-      </p>
+      <h2 id="offer-heading">Tudo isso por<br><em>muito menos do que você imagina</em></h2>
+      <p class="offer-desc">Uma identidade visual feita por designer custa entre R$800 e R$3.000. Aqui você tem tudo pronto, editável, pelo preço de um cafezinho.</p>
     </div>
-
     <div class="offer-box reveal">
       <ul class="offer-inclusions">
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Feed do Instagram</strong> — posts elegantes e prontos para usar</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Stories Templates</strong> — para promoções, apresentações e engajamento</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Catálogo de Serviços</strong> — tabela de preços profissional</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Cartão de Visita</strong> — digital e imprimível</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Vouchers e Cupons</strong> — para presentear e fidelizar</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Flyers e Materiais de Branding</strong> — identidade visual completa</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>+100 templates</strong> no total — todos editáveis no Canva</span>
-        </li>
-        <li>
-          <span class="chk">✓</span>
-          <span><strong>Acesso imediato</strong> após a compra — sem esperar</span>
-        </li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Feed do Instagram</strong> — posts elegantes e prontos para usar</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Stories Templates</strong> — promoções, apresentações e engajamento</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Catálogo de Serviços</strong> — tabela de preços profissional</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Cartão de Visita</strong> — digital e imprimível</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Vouchers e Cupons</strong> — para presentear e fidelizar</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Flyers e Branding</strong> — identidade visual completa</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Materiais profissionais selecionados</strong> — todos editáveis no Canva</span></li>
+        <li><span class="chk" aria-hidden="true">✓</span><span><strong>Acesso imediato</strong> após a compra</span></li>
       </ul>
-
       <div class="price-block">
         <div class="price-old">De R$97</div>
-        <div class="price-main">
-          <sup>R$</sup>27
-        </div>
+        <div class="price-main"><sup>R$</sup>27</div>
         <div class="price-note">Pagamento único · Sem mensalidade · Seu para sempre</div>
       </div>
-
       <a href="#" class="btn-primary" style="width:100%;display:block;text-align:center;">
         ✦ Quero meu kit agora — R$27
       </a>
-
       <div class="offer-guarantee">
-        <span>🔒</span>
+        <span aria-hidden="true">🔒</span>
         Compra segura · Acesso imediato · Suporte incluído
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── FAQ ── -->
-<section id="faq">
+
+<!-- ══════════════════════════
+     FAQ
+══════════════════════════ -->
+<section id="faq" aria-labelledby="faq-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">Dúvidas frequentes</div>
-      <h2>Antes de você ir embora,<br><em>deixa eu responder</em></h2>
+      <h2 id="faq-heading">Antes de você ir embora,<br><em>deixa eu responder</em></h2>
     </div>
-
     <div class="faq-list">
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
           <h3>Preciso saber usar o Canva?</h3>
-          <span class="faq-toggle">+</span>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Não precisa ter nenhuma experiência. Se você sabe clicar, trocar um texto e uma foto, você já consegue usar. O Canva é gratuito e extremamente fácil de usar — e os templates já vêm com tudo montado para você.</p>
+        <p class="faq-a">Não precisa de nenhuma experiência. Se você sabe clicar, trocar um texto e uma foto, já consegue usar. O Canva é gratuito e os templates vêm prontos — é só personalizar.</p>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
           <h3>Funciona para quem está começando?</h3>
-          <span class="faq-toggle">+</span>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Especialmente para quem está começando! Ter um perfil profissional desde o início te ajuda a atrair clientes mais rápido e a cobrar um valor justo pelo seu trabalho — sem precisar esperar anos de experiência para se posicionar bem.</p>
+        <p class="faq-a">Especialmente para quem está começando! Ter um perfil profissional desde o início ajuda a atrair clientes mais rápido e a cobrar um valor justo pelo seu trabalho.</p>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
-          <h3>Posso mudar as cores para combinar com minha marca?</h3>
-          <span class="faq-toggle">+</span>
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h3>Posso mudar as cores para a minha identidade?</h3>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Sim, tudo é 100% editável. Você pode mudar cores, fontes, textos, fotos — tudo. O kit funciona como uma base linda que você personaliza do seu jeito.</p>
+        <p class="faq-a">Sim, tudo é 100% editável. Cores, fontes, textos, fotos — tudo. O kit funciona como uma base elegante que você personaliza do seu jeito, para parecer uma marca sua.</p>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
-          <h3>Recebo o kit na hora?</h3>
-          <span class="faq-toggle">+</span>
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h3>Recebo acesso na hora?</h3>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Sim! Após a confirmação do pagamento, você recebe o acesso imediatamente por e-mail. É só clicar no link, duplicar os templates no Canva e já começar a editar.</p>
+        <p class="faq-a">Sim! Após a confirmação do pagamento, você recebe o acesso imediatamente por e-mail. É só clicar no link, duplicar os templates no Canva e já começar.</p>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
-          <h3>Serve para nail designer e sobrancelha também?</h3>
-          <span class="faq-toggle">+</span>
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h3>Serve para nail designer e sobrancelha?</h3>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Sim! Embora os templates sejam pensados principalmente para lash designers, a estética e o conteúdo funcionam perfeitamente para nail designers, designers de sobrancelhas e outros profissionais da beleza.</p>
+        <p class="faq-a">Sim! Os materiais foram criados priorizando lash designers, mas a estética e o conteúdo funcionam perfeitamente para nail e sobrancelha também.</p>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
           <h3>Precisa do Canva pago?</h3>
-          <span class="faq-toggle">+</span>
+          <span class="faq-toggle" aria-hidden="true">+</span>
         </div>
-        <p class="faq-a">Não! Os templates são compatíveis com o Canva gratuito. Você não precisa assinar nenhum plano para usar tudo que está no kit.</p>
+        <p class="faq-a">Não! Os templates são compatíveis com o Canva gratuito. Você não precisa de nenhum plano pago para usar tudo que está no kit.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── FINAL CTA ── -->
-<section id="final">
+
+<!-- ══════════════════════════
+     FINAL CTA
+══════════════════════════ -->
+<section id="final" aria-labelledby="final-heading">
   <div class="container">
     <div class="reveal">
       <div class="tag">É agora ou quando?</div>
-      <h2>O seu perfil pode<br><em>mudar ainda hoje.</em></h2>
-      <p>
-        Você já tem o talento. Você já tem o serviço. Agora só falta o perfil que comunica isso com a elegância que você merece.
-      </p>
+      <h2 id="final-heading">O seu perfil pode<br><em>mudar ainda hoje.</em></h2>
+      <p>Você já tem o talento. Você já tem o serviço. Agora só falta o perfil que comunica isso com a elegância que você merece.</p>
     </div>
-
     <div class="final-cta-group reveal">
-      <a href="#offer" class="btn-primary" style="font-size:16px;padding:20px 48px;">
-        ✦ Sim, quero transformar meu perfil
+      <a href="#offer" class="btn-primary" style="font-size:15px;padding:19px 44px;">
+        ✦ Quero transformar meu perfil agora
       </a>
       <span class="final-note">R$27 · Acesso imediato · Editável no Canva</span>
     </div>
   </div>
 </section>
 
-<!-- ── FOOTER ── -->
+
+<!-- ══════════════════════════
+     FOOTER
+══════════════════════════ -->
 <footer>
   <p>
     © 2025 Lash Studio Kit · Produto Digital · Todos os direitos reservados<br>
@@ -1159,80 +1175,91 @@
   </p>
 </footer>
 
+
+<!-- ══════════════════════════════════════════════════════
+     JAVASCRIPT
+     — Meta Pixel InitiateCheckout em todos os .btn-primary
+     — FAQ accordion
+     — Scroll reveal com IntersectionObserver
+     — CTA pulse suave após 3 s
+══════════════════════════════════════════════════════ -->
 <script>
-  // ── Meta Pixel: InitiateCheckout helper ──
-  // Called by every primary CTA button before redirecting to checkout.
-  function fireCTA(event, href) {
-    event.preventDefault();
+/* ── Meta Pixel: InitiateCheckout ─────────────────────
+   Dispara em todos os botões .btn-primary antes de
+   redirecionar. Aguarda 300 ms para garantir envio
+   mesmo em conexões lentas (mobile 4G).
+──────────────────────────────────────────────────── */
+function fireCTA(event) {
+  var el   = event.currentTarget;
+  var href = el.getAttribute('href');
 
-    // Fire the event; redirect after a short grace period so the pixel
-    // request has time to leave the browser (works on mobile too).
-    if (typeof fbq === 'function') {
-      fbq('track', 'InitiateCheckout', {
-        content_name: 'Kit Visual Lash Designer',
-        content_category: 'Beauty / Digital Product',
-        currency: 'BRL',
-        value: 27.00,
-        num_items: 1
-      });
-    }
+  /* Só intercepta se for link real de checkout */
+  if (!href || href === '#') return;
 
-    // Allow up to 300 ms for the pixel request, then navigate.
-    const destination = href || event.currentTarget.getAttribute('href') || '#';
-    setTimeout(function () {
-      if (destination && destination !== '#') {
-        window.location.href = destination;
-      }
-    }, 300);
+  event.preventDefault();
+
+  if (typeof fbq === 'function') {
+    fbq('track', 'InitiateCheckout', {
+      content_name    : 'Kit Visual Premium — Lash Designer',
+      content_category: 'Beauty / Digital Product',
+      currency        : 'BRL',
+      value           : 27.00,
+      num_items       : 1
+    });
   }
 
-  // Attach fireCTA to every .btn-primary anchor that points to the offer/checkout.
-  // We use a data-checkout attribute so each button keeps its own URL.
-  document.querySelectorAll('.btn-primary').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      fireCTA(e, btn.getAttribute('href'));
-    });
+  /* Redireciona após 300 ms */
+  setTimeout(function () { window.location.href = href; }, 300);
+}
+
+document.querySelectorAll('.btn-primary').forEach(function (btn) {
+  btn.addEventListener('click', fireCTA);
+});
+
+
+/* ── FAQ accordion ──────────────────────────────── */
+function toggleFaq(el) {
+  var item   = el.closest('.faq-item');
+  var isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function (i) {
+    i.classList.remove('open');
+    i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
   });
-
-  // ── FAQ toggle ──
-  function toggleFaq(el) {
-    const item = el.closest('.faq-item');
-    const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
-    if (!isOpen) item.classList.add('open');
+  if (!isOpen) {
+    item.classList.add('open');
+    item.querySelector('.faq-q').setAttribute('aria-expanded', 'true');
   }
+}
 
-  // Scroll reveal
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        // stagger children
-        const children = entry.target.querySelectorAll('.pain-card, .product-item, .benefit-row, .testi-card, .offer-inclusions li');
-        children.forEach((child, i) => {
-          child.style.transitionDelay = `${i * 0.07}s`;
-          child.classList.add('reveal', 'visible');
-        });
-      }
-    });
-  }, { threshold: 0.12 });
+/* Keyboard support for FAQ */
+document.querySelectorAll('.faq-q').forEach(function (q) {
+  q.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleFaq(q); }
+  });
+});
 
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-  // Smooth CTA pulse after 3s
-  setTimeout(() => {
-    document.querySelectorAll('.btn-primary').forEach(btn => {
-      btn.style.animation = 'pulse 2.5s ease-in-out infinite';
-    });
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes pulse {
-        0%, 100% { box-shadow: 0 12px 40px rgba(181,112,90,0.35); }
-        50% { box-shadow: 0 16px 50px rgba(181,112,90,0.55); }
-      }
-    `;
-    document.head.appendChild(style);
-  }, 3000);
+/* ── Scroll reveal ──────────────────────────────── */
+var revealObserver = new IntersectionObserver(function (entries) {
+  entries.forEach(function (entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+      revealObserver.unobserve(entry.target); /* fire once */
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(function (el) {
+  revealObserver.observe(el);
+});
+
+
+/* ── CTA pulse — inicia depois de 3 s ───────────── */
+setTimeout(function () {
+  document.querySelectorAll('.btn-primary').forEach(function (btn) {
+    btn.style.animation = 'ctaPulse 2.8s ease-in-out infinite';
+  });
+}, 3000);
 </script>
 </body>
 </html>
