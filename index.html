@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kit Visual para Lash Designers | Perfil Premium no Instagram</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- ── Meta Pixel ── -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '2379862875808919');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'Kit Visual Lash Designer',
+    content_category: 'Beauty / Digital Product',
+    currency: 'BRL',
+    value: 27.00
+  });
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2379862875808919&ev=PageView&noscript=1" />
+</noscript>
+<!-- ── Fim Meta Pixel ── -->
+<style>
+  :root {
+    --blush: #f2d9d0;
+    --rose: #d4927a;
+    --deep-rose: #b5705a;
+    --nude: #f7ede8;
+    --cream: #fdf8f5;
+    --warm-white: #fffcfa;
+    --taupe: #9c8073;
+    --dark: #2d1f1a;
+    --mid: #6b4c42;
+    --gold: #c9a882;
+    --gold-light: #e8d5bb;
+    --text: #3d2b25;
+    --text-soft: #7a5d55;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 { font-family: 'Cormorant Garamond', serif; }
+
+  /* ── UTILITY ── */
+  .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+  .tag {
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--deep-rose);
+    background: rgba(212,146,122,0.12);
+    padding: 6px 16px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 12px 40px rgba(181,112,90,0.35);
+    transition: transform 0.25s, box-shadow 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-primary::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.12);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 50px rgba(181,112,90,0.4); }
+  .btn-primary:hover::after { opacity: 1; }
+
+  .btn-ghost {
+    display: inline-block;
+    background: transparent;
+    color: var(--deep-rose);
+    font-family: 'Jost', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 60px;
+    border: 1.5px solid var(--rose);
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .btn-ghost:hover { background: var(--rose); color: #fff; }
+
+  /* ── NAVBAR ── */
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 100;
+    padding: 16px 24px;
+    background: rgba(253,248,245,0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(212,146,122,0.12);
+  }
+  .nav-inner {
+    max-width: 720px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 400; color: var(--dark);
+    letter-spacing: 1px;
+  }
+  .nav-logo span { color: var(--rose); }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100svh;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 100px 24px 60px;
+    background: linear-gradient(175deg, var(--cream) 0%, var(--nude) 50%, var(--blush) 100%);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  #hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 20% 30%, rgba(242,217,208,0.6) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 50% at 80% 70%, rgba(212,146,122,0.18) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-ornament {
+    position: absolute;
+    font-size: 280px;
+    line-height: 1;
+    color: rgba(212,146,122,0.06);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .hero-content { position: relative; z-index: 1; }
+  #hero h1 {
+    font-size: clamp(38px, 9vw, 62px);
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--dark);
+    margin-bottom: 20px;
+  }
+  #hero h1 em { font-style: italic; color: var(--deep-rose); }
+  #hero p.sub {
+    font-size: 16px; font-weight: 300; color: var(--text-soft);
+    line-height: 1.7; max-width: 480px; margin: 0 auto 36px;
+  }
+  .hero-cta-group { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .hero-note {
+    font-size: 12px; color: var(--taupe); letter-spacing: 0.5px;
+  }
+
+  /* mockup grid */
+  .mockup-area {
+    margin: 56px auto 0;
+    max-width: 600px;
+    position: relative;
+  }
+  .mockup-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(45,31,26,0.18);
+  }
+  .mock-card {
+    aspect-ratio: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: rgba(255,255,255,0.85);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .mock-card .icon { font-size: 22px; margin-bottom: 4px; opacity: 0.9; }
+  .mock-card span { font-size: 11px; line-height: 1.3; }
+  .mc1 { background: linear-gradient(135deg, #c9907a, #b5705a); }
+  .mc2 { background: linear-gradient(135deg, #d4b5aa, #c49688); }
+  .mc3 { background: linear-gradient(135deg, #b87f70, #9e6a5c); }
+  .mc4 { background: linear-gradient(135deg, #e8cfc7, #d4b5aa); color: var(--mid); }
+  .mc5 { background: linear-gradient(135deg, #c49688, #b5705a); }
+  .mc6 { background: linear-gradient(135deg, #d4927a, #c9907a); }
+  .mock-badge {
+    position: absolute; top: -16px; right: 16px;
+    background: var(--dark);
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border-radius: 20px;
+  }
+
+  /* ── PAIN ── */
+  #pain {
+    padding: 80px 24px;
+    background: var(--dark);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  #pain::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(212,146,122,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  #pain h2 {
+    font-size: clamp(28px, 7vw, 44px);
+    font-weight: 300; line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  #pain h2 em { font-style: italic; color: var(--blush); }
+  #pain .intro-p {
+    font-size: 15px; font-weight: 300; line-height: 1.8;
+    color: rgba(255,255,255,0.65);
+    max-width: 500px; margin: 0 auto 56px;
+  }
+  .pain-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .pain-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 14px;
+    padding: 24px 26px;
+    text-align: left;
+    display: flex; gap: 18px; align-items: flex-start;
+    transition: background 0.25s;
+  }
+  .pain-card:hover { background: rgba(255,255,255,0.07); }
+  .pain-icon {
+    width: 42px; height: 42px; flex-shrink: 0;
+    background: linear-gradient(135deg, rgba(212,146,122,0.25), rgba(181,112,90,0.15));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+  .pain-card h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: #fff; margin-bottom: 6px; }
+  .pain-card p { font-size: 13px; font-weight: 300; color: rgba(255,255,255,0.55); line-height: 1.6; }
+
+  /* ── PERCEPTION ── */
+  #perception {
+    padding: 80px 24px;
+    background: var(--cream);
+    text-align: center;
+  }
+  #perception h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.25;
+    margin-bottom: 16px;
+  }
+  #perception h2 em { font-style: italic; color: var(--deep-rose); }
+  #perception p { font-size: 15px; font-weight: 300; color: var(--text-soft); line-height: 1.8; margin-bottom: 20px; }
+  .perception-quote {
+    background: linear-gradient(135deg, var(--nude), var(--blush));
+    border-left: 3px solid var(--rose);
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px;
+    margin: 40px 0;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-style: italic;
+    color: var(--mid); line-height: 1.5;
+  }
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .stat-box {
+    background: #fff;
+    border: 1px solid var(--blush);
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+  }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px; font-weight: 300;
+    color: var(--deep-rose); line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-label { font-size: 12px; color: var(--taupe); line-height: 1.4; }
+
+  /* ── PRODUCT ── */
+  #product {
+    padding: 80px 24px;
+    background: linear-gradient(180deg, var(--nude) 0%, var(--warm-white) 100%);
+    text-align: center;
+  }
+  #product h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  #product h2 em { font-style: italic; color: var(--deep-rose); }
+  #product .sub-desc {
+    font-size: 15px; color: var(--text-soft); font-weight: 300;
+    line-height: 1.7; margin-bottom: 48px; max-width: 480px; margin-left: auto; margin-right: auto;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .product-item {
+    background: #fff;
+    border: 1px solid var(--blush);
+    border-radius: 14px;
+    padding: 22px 18px;
+    text-align: left;
+    transition: box-shadow 0.25s, transform 0.25s;
+  }
+  .product-item:hover { box-shadow: 0 8px 30px rgba(181,112,90,0.12); transform: translateY(-2px); }
+  .product-item .p-icon { font-size: 26px; margin-bottom: 10px; }
+  .product-item h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 13px; font-weight: 500;
+    color: var(--dark); margin-bottom: 6px;
+  }
+  .product-item p { font-size: 12px; color: var(--taupe); line-height: 1.5; font-weight: 300; }
+  .product-total {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--mid) 100%);
+    border-radius: 16px;
+    padding: 28px 24px;
+    color: #fff;
+    text-align: center;
+  }
+  .product-total span {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px; font-weight: 300;
+    margin-bottom: 6px;
+  }
+  .product-total p { font-size: 13px; color: rgba(255,255,255,0.6); font-weight: 300; }
+
+  /* ── BENEFITS ── */
+  #benefits {
+    padding: 80px 24px;
+    background: var(--warm-white);
+    text-align: center;
+  }
+  #benefits h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2; margin-bottom: 48px;
+  }
+  #benefits h2 em { font-style: italic; color: var(--deep-rose); }
+  .benefit-list { display: grid; gap: 14px; max-width: 560px; margin: 0 auto; }
+  .benefit-row {
+    display: flex; gap: 16px; align-items: flex-start;
+    background: var(--cream);
+    border: 1px solid var(--blush);
+    border-radius: 14px;
+    padding: 20px 22px;
+    text-align: left;
+  }
+  .benefit-dot {
+    width: 10px; height: 10px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
+    border-radius: 50%; margin-top: 6px;
+  }
+  .benefit-row h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 4px; }
+  .benefit-row p { font-size: 13px; color: var(--text-soft); font-weight: 300; line-height: 1.5; }
+
+  /* ── TRANSFORMATION ── */
+  #transformation {
+    padding: 80px 24px;
+    background: var(--dark);
+    text-align: center;
+    color: #fff;
+  }
+  #transformation h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2; margin-bottom: 12px;
+  }
+  #transformation h2 em { font-style: italic; color: var(--blush); }
+  #transformation .intro-p {
+    font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.6);
+    max-width: 460px; margin: 0 auto 48px; line-height: 1.7;
+  }
+  .transform-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .tf-box {
+    border-radius: 14px; padding: 28px 20px; text-align: left;
+  }
+  .tf-before { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); }
+  .tf-after { background: linear-gradient(135deg, rgba(212,146,122,0.18), rgba(181,112,90,0.1)); border: 1px solid rgba(212,146,122,0.25); }
+  .tf-label {
+    font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+    font-weight: 500; margin-bottom: 18px; display: block;
+  }
+  .tf-before .tf-label { color: rgba(255,255,255,0.35); }
+  .tf-after .tf-label { color: var(--blush); }
+  .tf-box ul { list-style: none; }
+  .tf-box ul li {
+    font-size: 13px; font-weight: 300; line-height: 1.5;
+    padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .tf-before ul li { color: rgba(255,255,255,0.4); }
+  .tf-before ul li::before { content: '— '; }
+  .tf-after ul li { color: rgba(255,255,255,0.85); }
+  .tf-after ul li::before { content: '✦ '; color: var(--blush); font-size: 10px; }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials {
+    padding: 80px 24px;
+    background: var(--nude);
+    text-align: center;
+  }
+  #testimonials h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2; margin-bottom: 40px;
+  }
+  #testimonials h2 em { font-style: italic; color: var(--deep-rose); }
+  .testi-grid { display: grid; gap: 14px; max-width: 560px; margin: 0 auto; }
+  .testi-card {
+    background: #fff;
+    border: 1px solid var(--blush);
+    border-radius: 16px;
+    padding: 26px 24px;
+    text-align: left;
+  }
+  .testi-stars { color: var(--gold); font-size: 14px; letter-spacing: 2px; margin-bottom: 12px; }
+  .testi-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px; font-style: italic; font-weight: 400;
+    color: var(--mid); line-height: 1.6; margin-bottom: 16px;
+  }
+  .testi-author { display: flex; align-items: center; gap: 12px; }
+  .testi-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--blush), var(--rose));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; flex-shrink: 0;
+  }
+  .testi-name { font-size: 13px; font-weight: 500; color: var(--dark); }
+  .testi-role { font-size: 11px; color: var(--taupe); margin-top: 2px; }
+
+  /* ── OFFER ── */
+  #offer {
+    padding: 80px 24px;
+    background: linear-gradient(175deg, var(--cream), var(--blush));
+    text-align: center;
+  }
+  #offer h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2; margin-bottom: 12px;
+  }
+  #offer h2 em { font-style: italic; color: var(--deep-rose); }
+  #offer .offer-desc {
+    font-size: 15px; color: var(--text-soft); font-weight: 300;
+    line-height: 1.7; max-width: 440px; margin: 0 auto 40px;
+  }
+  .offer-box {
+    background: #fff;
+    border: 1px solid var(--blush);
+    border-radius: 20px;
+    padding: 36px 28px;
+    max-width: 440px;
+    margin: 0 auto;
+    box-shadow: 0 20px 60px rgba(181,112,90,0.12);
+    position: relative;
+    overflow: hidden;
+  }
+  .offer-box::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--blush), var(--rose), var(--deep-rose));
+  }
+  .offer-inclusions { list-style: none; margin: 0 0 28px; text-align: left; }
+  .offer-inclusions li {
+    display: flex; align-items: flex-start; gap: 10px;
+    font-size: 14px; font-weight: 300; color: var(--text);
+    padding: 9px 0; border-bottom: 1px solid var(--nude);
+    line-height: 1.4;
+  }
+  .offer-inclusions li:last-child { border-bottom: none; }
+  .offer-inclusions li .chk {
+    width: 18px; height: 18px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--rose), var(--deep-rose));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 9px; margin-top: 1px;
+  }
+  .price-block { margin: 28px 0 24px; }
+  .price-old { font-size: 14px; color: var(--taupe); text-decoration: line-through; margin-bottom: 4px; }
+  .price-main {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 64px; font-weight: 300; line-height: 1;
+    color: var(--dark);
+  }
+  .price-main sup { font-size: 24px; vertical-align: top; margin-top: 12px; display: inline-block; }
+  .price-main .cents { font-size: 28px; }
+  .price-note { font-size: 12px; color: var(--taupe); margin-top: 4px; }
+  .offer-guarantee {
+    margin-top: 20px;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    font-size: 12px; color: var(--taupe);
+  }
+  .offer-guarantee span { font-size: 18px; }
+
+  /* ── FAQ ── */
+  #faq {
+    padding: 80px 24px;
+    background: var(--warm-white);
+    text-align: center;
+  }
+  #faq h2 {
+    font-size: clamp(26px, 6vw, 40px);
+    font-weight: 300; line-height: 1.2; margin-bottom: 40px;
+  }
+  #faq h2 em { font-style: italic; color: var(--deep-rose); }
+  .faq-list { max-width: 560px; margin: 0 auto; text-align: left; }
+  .faq-item {
+    border-bottom: 1px solid var(--blush);
+    padding: 20px 0;
+  }
+  .faq-q {
+    display: flex; justify-content: space-between; align-items: center;
+    cursor: pointer; gap: 16px;
+  }
+  .faq-q h3 { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 500; color: var(--dark); line-height: 1.4; }
+  .faq-toggle {
+    width: 28px; height: 28px; flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--nude);
+    border: 1px solid var(--blush);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; color: var(--rose);
+    transition: transform 0.3s, background 0.3s;
+    user-select: none;
+  }
+  .faq-item.open .faq-toggle { transform: rotate(45deg); background: var(--rose); color: #fff; }
+  .faq-a {
+    font-size: 13px; font-weight: 300; color: var(--text-soft);
+    line-height: 1.7; max-height: 0; overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s;
+  }
+  .faq-item.open .faq-a { max-height: 200px; padding-top: 14px; }
+
+  /* ── FINAL CTA ── */
+  #final {
+    padding: 100px 24px;
+    background: linear-gradient(160deg, var(--dark) 0%, #1a0f0d 100%);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  #final::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 70% 50% at 50% 80%, rgba(212,146,122,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  #final .tag { background: rgba(212,146,122,0.15); }
+  #final h2 {
+    font-size: clamp(32px, 8vw, 52px);
+    font-weight: 300; line-height: 1.15;
+    color: #fff; margin-bottom: 16px;
+  }
+  #final h2 em { font-style: italic; color: var(--blush); }
+  #final p {
+    font-size: 15px; font-weight: 300;
+    color: rgba(255,255,255,0.55);
+    max-width: 420px; margin: 0 auto 40px; line-height: 1.7;
+  }
+  .final-cta-group { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .final-note { font-size: 12px; color: rgba(255,255,255,0.35); }
+
+  /* ── FOOTER ── */
+  footer {
+    padding: 32px 24px;
+    background: var(--dark);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+  }
+  footer p { font-size: 12px; color: rgba(255,255,255,0.25); line-height: 1.6; }
+  footer a { color: rgba(255,255,255,0.35); text-decoration: none; }
+  footer a:hover { color: var(--blush); }
+
+  /* ── DIVIDERS ── */
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--blush), transparent);
+    margin: 0 auto; max-width: 200px;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .fade-up { opacity: 0; animation: fadeUp 0.8s ease forwards; }
+  .delay-1 { animation-delay: 0.15s; }
+  .delay-2 { animation-delay: 0.3s; }
+  .delay-3 { animation-delay: 0.45s; }
+  .delay-4 { animation-delay: 0.6s; }
+
+  /* ── SCROLL REVEAL ── */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 480px) {
+    .product-grid { grid-template-columns: 1fr; }
+    .transform-row { grid-template-columns: 1fr; }
+    .stat-row { grid-template-columns: 1fr 1fr; }
+    .mockup-grid { grid-template-columns: repeat(3, 1fr); }
+    .price-main { font-size: 52px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">lash<span>studio</span> kit</div>
+    <a href="#offer" class="btn-ghost">Quero agora →</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-ornament">lash</div>
+  <div class="container hero-content">
+    <div class="tag fade-up">✦ Kit Visual para Lash Designers</div>
+    <h1 class="fade-up delay-1">
+      O seu talento merece um perfil<br>
+      <em>tão bonito quanto o seu trabalho</em>
+    </h1>
+    <p class="sub fade-up delay-2">
+      Templates editáveis no Canva para lash designers que querem atrair mais clientes, parecer mais profissional e economizar horas de trabalho toda semana.
+    </p>
+    <div class="hero-cta-group fade-up delay-3">
+      <a href="#offer" class="btn-primary">✦ Quero transformar meu perfil</a>
+      <span class="hero-note">Acesso imediato · Editável no Canva · Sem mensalidades</span>
+    </div>
+
+    <div class="mockup-area fade-up delay-4">
+      <span class="mock-badge">+100 templates</span>
+      <div class="mockup-grid">
+        <div class="mock-card mc1">
+          <div class="icon">✦</div>
+          <span>Feed<br>Instagram</span>
+        </div>
+        <div class="mock-card mc2">
+          <div class="icon">◈</div>
+          <span>Stories<br>Promoções</span>
+        </div>
+        <div class="mock-card mc3">
+          <div class="icon">❋</div>
+          <span>Cartão<br>de Visita</span>
+        </div>
+        <div class="mock-card mc4">
+          <div class="icon">◇</div>
+          <span>Catálogo<br>de Preços</span>
+        </div>
+        <div class="mock-card mc5">
+          <div class="icon">✿</div>
+          <span>Vouchers<br>& Cupons</span>
+        </div>
+        <div class="mock-card mc6">
+          <div class="icon">❀</div>
+          <span>Flyers<br>& Marca</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PAIN ── -->
+<section id="pain">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Você já se sentiu assim?</div>
+      <h2>Você posta todo dia,<br><em>mas os clientes não chegam.</em></h2>
+      <p class="intro-p">
+        Não é porque o seu trabalho não é bom. É porque o seu perfil ainda não comunica o quanto você é profissional.
+      </p>
+    </div>
+
+    <div class="pain-cards reveal">
+      <div class="pain-card">
+        <div class="pain-icon">📱</div>
+        <div>
+          <h3>Perfil que não transmite confiança</h3>
+          <p>Fotos boas, mas sem identidade visual. A cliente visita o perfil e não sente aquela segurança de querer agendar.</p>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">⏳</div>
+        <div>
+          <h3>Horas perdidas criando posts do zero</h3>
+          <p>Canva aberto, tela em branco, uma hora depois ainda tentando deixar bonito. Enquanto isso, o tempo que poderia ser lucro vai embora.</p>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">👁️</div>
+        <div>
+          <h3>Outras lash designers crescendo mais rápido</h3>
+          <p>Você sabe que é tão boa quanto elas. Mas o perfil delas parece mais profissional, mais premium. E a clientela percebe isso.</p>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">💭</div>
+        <div>
+          <h3>A sensação de não estar sendo levada a sério</h3>
+          <p>Você se dedica, estuda, investe no seu trabalho. Merecia ser reconhecida por isso desde o primeiro contato no Instagram.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PERCEPTION ── -->
+<section id="perception">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">A verdade que ninguém fala</div>
+      <h2>Antes de agendar,<br><em>a cliente já decidiu.</em></h2>
+      <p>
+        Em menos de 8 segundos, quem visita o seu perfil já formou uma opinião sobre você. Não sobre o seu serviço — sobre a sua marca.
+      </p>
+      <p>
+        Um perfil com identidade visual coerente, posts bem feitos e uma estética premium comunica: <strong>essa profissional é séria, cobra o que vale.</strong>
+      </p>
+    </div>
+
+    <blockquote class="perception-quote reveal">
+      "A cliente não vê o seu certificado quando abre o Instagram. Ela vê o seu feed — e decide na hora se confia em você."
+    </blockquote>
+
+    <p class="reveal" style="font-size:15px;color:var(--text-soft);font-weight:300;line-height:1.8;">
+      Não é sobre ser perfeita. É sobre parecer tão profissional quanto você realmente é. E isso começa pela apresentação visual do seu negócio.
+    </p>
+
+    <div class="stat-row reveal">
+      <div class="stat-box">
+        <div class="stat-num">94%</div>
+        <div class="stat-label">das primeiras impressões de marca são baseadas em design visual</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">8s</div>
+        <div class="stat-label">é o tempo que uma visitante leva para julgar se vai seguir ou sair</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRODUCT ── -->
+<section id="product">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">O que está incluído</div>
+      <h2>Tudo que você precisa<br><em>para um perfil de respeito</em></h2>
+      <p class="sub-desc">
+        Um kit completo de templates profissionais, pensados especialmente para lash designers — e que funcionam igualmente bem para nail e sobrancelha.
+      </p>
+    </div>
+
+    <div class="product-grid reveal">
+      <div class="product-item">
+        <div class="p-icon">🖼️</div>
+        <h3>Feed do Instagram</h3>
+        <p>Postagens elegantes para apresentar seus trabalhos, serviços e promoções com estética unificada.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">📱</div>
+        <h3>Stories Templates</h3>
+        <p>Destaques, enquetes, apresentações de serviço e promoções que prendem a atenção.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">💌</div>
+        <h3>Posts de Promoção</h3>
+        <p>Artes prontas para divulgar promoções, datas comemorativas e campanhas sazonais.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">📋</div>
+        <h3>Catálogos de Serviços</h3>
+        <p>Tabelas e catálogos editáveis para apresentar seus serviços com preço e estilo premium.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">💳</div>
+        <h3>Cartão de Visita</h3>
+        <p>Design profissional para imprimir ou compartilhar digitalmente com novas clientes.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">🎁</div>
+        <h3>Vouchers & Cupons</h3>
+        <p>Artes para presentear clientes e gerar indicações com muito mais elegância.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">📄</div>
+        <h3>Flyers Impressos</h3>
+        <p>Para usar em salões parceiros, eventos ou distribuição física no seu bairro.</p>
+      </div>
+      <div class="product-item">
+        <div class="p-icon">✨</div>
+        <h3>Materiais de Branding</h3>
+        <p>Logotipos editáveis, paleta de cores e identidade visual completa para a sua marca.</p>
+      </div>
+    </div>
+
+    <div class="product-total reveal">
+      <span>+100 templates editáveis</span>
+      <p>Tudo personalizável no Canva — sem precisar saber design, sem mensalidade, sem complicação.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── BENEFITS ── -->
+<section id="benefits">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">O que muda para você</div>
+      <h2>Menos tempo no celular.<br><em>Mais clientes na agenda.</em></h2>
+    </div>
+
+    <div class="benefit-list">
+      <div class="benefit-row reveal">
+        <div class="benefit-dot"></div>
+        <div>
+          <h3>Economize horas toda semana</h3>
+          <p>Nada mais de ficar horas criando posts do zero. Abre o template, edita em minutos, publica. Simples assim.</p>
+        </div>
+      </div>
+      <div class="benefit-row reveal">
+        <div class="benefit-dot"></div>
+        <div>
+          <h3>Perfil que conquista na primeira visita</h3>
+          <p>Identidade visual coerente, estética premium, comunicação clara. A cliente visita e já quer agendar.</p>
+        </div>
+      </div>
+      <div class="benefit-row reveal">
+        <div class="benefit-dot"></div>
+        <div>
+          <h3>Pareça mais profissional do que concorrentes</h3>
+          <p>Enquanto outras lash designers ainda usam templates genéricos, o seu perfil vai se destacar com estética exclusiva.</p>
+        </div>
+      </div>
+      <div class="benefit-row reveal">
+        <div class="benefit-dot"></div>
+        <div>
+          <h3>Justifique (e eleve) os seus preços</h3>
+          <p>Um perfil premium aumenta a percepção de valor. Quando você parece premium, cobrar mais se torna natural.</p>
+        </div>
+      </div>
+      <div class="benefit-row reveal">
+        <div class="benefit-dot"></div>
+        <div>
+          <h3>Funciona para iniciantes e profissionais</h3>
+          <p>Não precisa saber design. Se você consegue trocar um texto e uma foto no Canva, já está pronta para usar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRANSFORMATION ── -->
+<section id="transformation">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">A transformação</div>
+      <h2>De perfil comum<br><em>para marca que encanta</em></h2>
+      <p class="intro-p">
+        Não é mágica. É posicionamento. É comunicação visual feita com intenção — e qualquer pessoa consegue fazer.
+      </p>
+    </div>
+
+    <div class="transform-row reveal">
+      <div class="tf-box tf-before">
+        <span class="tf-label">Antes</span>
+        <ul>
+          <li>Posts sem padrão visual</li>
+          <li>Cores e fontes misturadas</li>
+          <li>Perfil parece amador</li>
+          <li>Poucas curtidas, menos ainda agendamentos</li>
+          <li>Horas gastas criando cada post</li>
+          <li>Não transmite confiança</li>
+        </ul>
+      </div>
+      <div class="tf-box tf-after">
+        <span class="tf-label">Depois</span>
+        <ul>
+          <li>Feed harmonioso e elegante</li>
+          <li>Identidade visual consistente</li>
+          <li>Perfil exala profissionalismo</li>
+          <li>Novas clientes chegando pelo Instagram</li>
+          <li>Posts prontos em minutos</li>
+          <li>Marca que gera confiança</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section id="testimonials">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Quem já transformou</div>
+      <h2>O que as meninas<br><em>estão dizendo</em></h2>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Eu não sabia nada de design e achei que ia ser difícil. Fui usar e em menos de 30 minutos já tinha meu feed todo reformulado. Nunca me senti tão profissional."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">🌸</div>
+          <div>
+            <div class="testi-name">Isabela Moura</div>
+            <div class="testi-role">Lash Designer · São Paulo, SP</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Meu perfil estava horrível e eu sabia, só não tinha tempo pra resolver. Com o kit resolvi tudo num sábado à tarde. Na semana seguinte já vieram 3 clientes novas do Instagram."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">✨</div>
+          <div>
+            <div class="testi-name">Fernanda Rocha</div>
+            <div class="testi-role">Lash & Nail Designer · Curitiba, PR</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"O catálogo de preços que fiz com o kit é tão lindo que agora até tenho mais coragem de mostrar meus valores. Parece coisa de estúdio sofisticado — não de atendimento em casa."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">💎</div>
+          <div>
+            <div class="testi-name">Amanda Silva</div>
+            <div class="testi-role">Lash Designer · Belo Horizonte, MG</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Comprei achando que seria mais um template básico. Me surpreendi demais. A qualidade é de agência de design. Vale muito mais do que o preço."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">🌷</div>
+          <div>
+            <div class="testi-name">Camila Andrade</div>
+            <div class="testi-role">Designer de Sobrancelhas · Rio de Janeiro, RJ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── OFFER ── -->
+<section id="offer">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">A oferta</div>
+      <h2>Tudo isso por<br><em>muito menos do que você imagina</em></h2>
+      <p class="offer-desc">
+        Uma identidade visual feita por designer custa entre R$800 e R$3.000. Aqui você tem tudo pronto, editável, pelo preço de um cafezinho por semana.
+      </p>
+    </div>
+
+    <div class="offer-box reveal">
+      <ul class="offer-inclusions">
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Feed do Instagram</strong> — posts elegantes e prontos para usar</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Stories Templates</strong> — para promoções, apresentações e engajamento</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Catálogo de Serviços</strong> — tabela de preços profissional</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Cartão de Visita</strong> — digital e imprimível</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Vouchers e Cupons</strong> — para presentear e fidelizar</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Flyers e Materiais de Branding</strong> — identidade visual completa</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>+100 templates</strong> no total — todos editáveis no Canva</span>
+        </li>
+        <li>
+          <span class="chk">✓</span>
+          <span><strong>Acesso imediato</strong> após a compra — sem esperar</span>
+        </li>
+      </ul>
+
+      <div class="price-block">
+        <div class="price-old">De R$97</div>
+        <div class="price-main">
+          <sup>R$</sup>27
+        </div>
+        <div class="price-note">Pagamento único · Sem mensalidade · Seu para sempre</div>
+      </div>
+
+      <a href="#" class="btn-primary" style="width:100%;display:block;text-align:center;">
+        ✦ Quero meu kit agora — R$27
+      </a>
+
+      <div class="offer-guarantee">
+        <span>🔒</span>
+        Compra segura · Acesso imediato · Suporte incluído
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section id="faq">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Dúvidas frequentes</div>
+      <h2>Antes de você ir embora,<br><em>deixa eu responder</em></h2>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Preciso saber usar o Canva?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Não precisa ter nenhuma experiência. Se você sabe clicar, trocar um texto e uma foto, você já consegue usar. O Canva é gratuito e extremamente fácil de usar — e os templates já vêm com tudo montado para você.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Funciona para quem está começando?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Especialmente para quem está começando! Ter um perfil profissional desde o início te ajuda a atrair clientes mais rápido e a cobrar um valor justo pelo seu trabalho — sem precisar esperar anos de experiência para se posicionar bem.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Posso mudar as cores para combinar com minha marca?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Sim, tudo é 100% editável. Você pode mudar cores, fontes, textos, fotos — tudo. O kit funciona como uma base linda que você personaliza do seu jeito.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Recebo o kit na hora?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Sim! Após a confirmação do pagamento, você recebe o acesso imediatamente por e-mail. É só clicar no link, duplicar os templates no Canva e já começar a editar.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Serve para nail designer e sobrancelha também?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Sim! Embora os templates sejam pensados principalmente para lash designers, a estética e o conteúdo funcionam perfeitamente para nail designers, designers de sobrancelhas e outros profissionais da beleza.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <h3>Precisa do Canva pago?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <p class="faq-a">Não! Os templates são compatíveis com o Canva gratuito. Você não precisa assinar nenhum plano para usar tudo que está no kit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FINAL CTA ── -->
+<section id="final">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">É agora ou quando?</div>
+      <h2>O seu perfil pode<br><em>mudar ainda hoje.</em></h2>
+      <p>
+        Você já tem o talento. Você já tem o serviço. Agora só falta o perfil que comunica isso com a elegância que você merece.
+      </p>
+    </div>
+
+    <div class="final-cta-group reveal">
+      <a href="#offer" class="btn-primary" style="font-size:16px;padding:20px 48px;">
+        ✦ Sim, quero transformar meu perfil
+      </a>
+      <span class="final-note">R$27 · Acesso imediato · Editável no Canva</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p>
+    © 2025 Lash Studio Kit · Produto Digital · Todos os direitos reservados<br>
+    <a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">Contato</a>
+  </p>
+</footer>
+
+<script>
+  // ── Meta Pixel: InitiateCheckout helper ──
+  // Called by every primary CTA button before redirecting to checkout.
+  function fireCTA(event, href) {
+    event.preventDefault();
+
+    // Fire the event; redirect after a short grace period so the pixel
+    // request has time to leave the browser (works on mobile too).
+    if (typeof fbq === 'function') {
+      fbq('track', 'InitiateCheckout', {
+        content_name: 'Kit Visual Lash Designer',
+        content_category: 'Beauty / Digital Product',
+        currency: 'BRL',
+        value: 27.00,
+        num_items: 1
+      });
+    }
+
+    // Allow up to 300 ms for the pixel request, then navigate.
+    const destination = href || event.currentTarget.getAttribute('href') || '#';
+    setTimeout(function () {
+      if (destination && destination !== '#') {
+        window.location.href = destination;
+      }
+    }, 300);
+  }
+
+  // Attach fireCTA to every .btn-primary anchor that points to the offer/checkout.
+  // We use a data-checkout attribute so each button keeps its own URL.
+  document.querySelectorAll('.btn-primary').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      fireCTA(e, btn.getAttribute('href'));
+    });
+  });
+
+  // ── FAQ toggle ──
+  function toggleFaq(el) {
+    const item = el.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // stagger children
+        const children = entry.target.querySelectorAll('.pain-card, .product-item, .benefit-row, .testi-card, .offer-inclusions li');
+        children.forEach((child, i) => {
+          child.style.transitionDelay = `${i * 0.07}s`;
+          child.classList.add('reveal', 'visible');
+        });
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Smooth CTA pulse after 3s
+  setTimeout(() => {
+    document.querySelectorAll('.btn-primary').forEach(btn => {
+      btn.style.animation = 'pulse 2.5s ease-in-out infinite';
+    });
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes pulse {
+        0%, 100% { box-shadow: 0 12px 40px rgba(181,112,90,0.35); }
+        50% { box-shadow: 0 16px 50px rgba(181,112,90,0.55); }
+      }
+    `;
+    document.head.appendChild(style);
+  }, 3000);
+</script>
+</body>
+</html>
